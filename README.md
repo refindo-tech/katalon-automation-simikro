@@ -29,25 +29,25 @@ Laporan pengujian dibagi berdasarkan jenis pengujian:
 
 ### 🔹 Smoke Test
 - **Chrome**:
-[HTML](http://refindo.site//Smoke/R_Smoke_LoginLogoutAllRole.html)
+[HTML](https://refindo-tech.github.io/katalon-automation-simikro/Smoke/R_Smoke_LoginLogoutAllRole.html)
 
 ### 🔹 Regression Test
 - **Collection**:
-[HTML](http://refindo.site/Regression/Collection/R_Regression_CheckSubmission.html)
+[HTML](https://refindo-tech.github.io/katalon-automation-simikro/Regression/Collection/R_Regression_CheckSubmission.html)
 - **Chrome**:
-[HTML](http://refindo.site/Report%20Document/Regression/Chrome/R_Regression_CheckSubmission.html)
+[HTML](https://refindo-tech.github.io/katalon-automation-simikro/Regression/Chrome/R_Regression_CheckSubmission.html)
 - **Firefox**:
-[HTML](http://refindo.site/Report%20Document/Regression/Firefox/R_Regression_CheckSubmission.html)
+[HTML](https://refindo-tech.github.io/katalon-automation-simikro/Regression/Firefox/R_Regression_CheckSubmission.html)
 - **Edge**:
-[HTML](http://refindo.site/Report%20Document/Regression/Edge/R_Regression_CheckSubmission.html)
+[HTML](https://refindo-tech.github.io/katalon-automation-simikro/Regression/Edge/R_Regression_CheckSubmission.html)
 
 ### 🔹 End-To-End Test
 - **Collection**:
-[HTML](http://refindo.site/End-To-End/Collection/R_EndToEnd.html)
+[HTML](https://refindo-tech.github.io/katalon-automation-simikro/End-To-End/Collection/R_EndToEnd.html)
 - **Chrome**:
-[HTML](http://refindo.site/End-To-End/Chrome/R_EndToEnd.html)
+[HTML](https://refindo-tech.github.io/katalon-automation-simikro/End-To-End/Chrome/R_EndToEnd_Chrome.html)
 - **Firefox**:
-[HTML](http://refindo.site/End-To-End/Firefox/R_EndToEnd.html)
+[HTML](https://refindo-tech.github.io/katalon-automation-simikro/End-To-End/Firefox/R_EndToEnd_Firefox.html)
 - **Edge**:
-[HTML](http://refindo.site/End-To-End/Edge/R_EndToEnd.html)
+[HTML](https://refindo-tech.github.io/katalon-automation-simikro/End-To-End/Edge/R_EndToEnd_Edge.html)
 
