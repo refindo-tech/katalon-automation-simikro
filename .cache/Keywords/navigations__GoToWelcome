@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "7D18F4F4E76CCD9DC1C51F09F02C46C5",
+  "keywordClasses": [
+    {
+      "name": "navigations.GoToWelcome",
+      "keywordMethods": [
+        {
+          "name": "verifyWelcomePageIsDisplayed",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

@@ -1,0 +1,200 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_EndToEnd,Firefox 138.0.4,,,20-05-2025 03:16:40,20-05-2025 03:24:35,7m - 54.985s,PASSED
+,,,,,,,
+Test Cases/Common/Login/TC_LoginMahasiswa,Firefox 138.0.4,Logs in as a student user.,,20-05-2025 03:16:42,20-05-2025 03:17:31,48.896s,PASSED
+"DATA BINDING - {""(Default) Role"":""Mahasiswa"",""(Default) Email"":""mahasiswa@example.com"",""(Default) Passw..."":""8SQVv/p9jVScEs4/2CZsLw\u003d\u003d""}",,,,,,,
+"openBrowser("""")",Firefox 138.0.4,,,20-05-2025 03:16:46,20-05-2025 03:17:00,14.759s,PASSED
+navigateToUrl(URL_Test_Env),Firefox 138.0.4,,,20-05-2025 03:17:00,20-05-2025 03:17:04,3.817s,PASSED
+maximizeWindow(),Firefox 138.0.4,,,20-05-2025 03:17:04,20-05-2025 03:17:05,0.894s,PASSED
+pageVerification.GoToWelcome.verifyWelcomePageIsDisplayed(),Firefox 138.0.4,,,20-05-2025 03:17:05,20-05-2025 03:17:07,1.832s,PASSED
+takeFullPageScreenshot(STOP_ON_FAILURE),Firefox 138.0.4,,,20-05-2025 03:17:07,20-05-2025 03:17:09,2.279s,PASSED
+"click(findTestObject(""Object Repository/Page_Welcome - Simikro/a_Login""))",Firefox 138.0.4,,,20-05-2025 03:17:09,20-05-2025 03:17:16,7.030s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login - Simikro/input_Email_email""), Email)",Firefox 138.0.4,,,20-05-2025 03:17:16,20-05-2025 03:17:17,0.988s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login - Simikro/input_Password_password""), Password)",Firefox 138.0.4,,,20-05-2025 03:17:17,20-05-2025 03:17:18,0.642s,PASSED
+"click(findTestObject(""Object Repository/Page_Login - Simikro/button_Masuk""))",Firefox 138.0.4,,,20-05-2025 03:17:18,20-05-2025 03:17:24,6.068s,PASSED
+pageVerification.GoToDashboard.verifyRoleIsDisplayed(Role),Firefox 138.0.4,,,20-05-2025 03:17:24,20-05-2025 03:17:30,5.687s,PASSED
+takeFullPageScreenshot(STOP_ON_FAILURE),Firefox 138.0.4,,,20-05-2025 03:17:30,20-05-2025 03:17:31,1.404s,PASSED
+,,,,,,,
+Test Cases/Common/TC_EditProfile,Firefox 138.0.4,Edits user profile information.,,20-05-2025 03:17:31,20-05-2025 03:17:56,24.554s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Report - Simikro/span_Pengaturan""), 0)",Firefox 138.0.4,,,20-05-2025 03:17:31,20-05-2025 03:17:32,0.387s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/span_Pengaturan""))",Firefox 138.0.4,,,20-05-2025 03:17:32,20-05-2025 03:17:32,0.516s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Report - Simikro/span_Profil Pengguna""), 0)",Firefox 138.0.4,,,20-05-2025 03:17:32,20-05-2025 03:17:33,0.324s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/span_Profil Pengguna""))",Firefox 138.0.4,,,20-05-2025 03:17:33,20-05-2025 03:17:40,7.287s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Profil Master - Simikro/a_Edit Profil""), 0)",Firefox 138.0.4,,,20-05-2025 03:17:40,20-05-2025 03:17:41,0.568s,PASSED
+"click(findTestObject(""Object Repository/Page_Profil Master - Simikro/a_Edit Profil""))",Firefox 138.0.4,,,20-05-2025 03:17:41,20-05-2025 03:17:47,6.941s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Profil Master - Simikro/button_Simpan Perubahan""), 0)",Firefox 138.0.4,,,20-05-2025 03:17:48,20-05-2025 03:17:48,0.808s,PASSED
+"click(findTestObject(""Object Repository/Page_Profil Master - Simikro/button_Simpan Perubahan""))",Firefox 138.0.4,,,20-05-2025 03:17:48,20-05-2025 03:17:56,7.460s,PASSED
+,,,,,,,
+Test Cases/User Flow/Mahasiswa/TC_AddSubmission,Firefox 138.0.4,Creates a new submission as a student.,GenAI,20-05-2025 03:17:56,20-05-2025 03:18:38,42.420s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/span_Pengajuan Konversi""))",Firefox 138.0.4,,,20-05-2025 03:17:57,20-05-2025 03:18:02,4.863s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/button_OK""))",Firefox 138.0.4,,,20-05-2025 03:18:02,20-05-2025 03:18:03,0.903s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Report - Simikro/td_Belum Test""), ""Belum Test"")",Firefox 138.0.4,,,20-05-2025 03:18:03,20-05-2025 03:18:03,0.300s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Report - Simikro/span_Silahkan tes terlebih dahulu""), ""Silahkan tes terlebih dahulu"")",Firefox 138.0.4,,,20-05-2025 03:18:03,20-05-2025 03:18:03,0.281s,PASSED
+takeFullPageScreenshot(),Firefox 138.0.4,,,20-05-2025 03:18:03,20-05-2025 03:18:04,1.034s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/a_Tes Mikroskill""))",Firefox 138.0.4,,,20-05-2025 03:18:04,20-05-2025 03:18:07,2.603s,PASSED
+utils.takeMikroskillTest.answarAllQuestions(),Firefox 138.0.4,,,20-05-2025 03:18:07,20-05-2025 03:18:27,19.934s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/button_Submit Tes""))",Firefox 138.0.4,,,20-05-2025 03:18:27,20-05-2025 03:18:33,5.903s,PASSED
+takeFullPageScreenshot(),Firefox 138.0.4,,,20-05-2025 03:18:33,20-05-2025 03:18:34,1.563s,PASSED
+"verifyElementText(findTestObject(""Page_Report - Simikro/span_MENUNGGU VALIDASI""), ""MENUNGGU VALIDASI"")",Firefox 138.0.4,,,20-05-2025 03:18:34,20-05-2025 03:18:35,0.332s,PASSED
+"navigateToUrl(""http://127.0.0.1:8000/dashboard"")",Firefox 138.0.4,,,20-05-2025 03:18:35,20-05-2025 03:18:38,3.725s,PASSED
+,,,,,,,
+Test Cases/Common/TC_Logout,Firefox 138.0.4,Logs out the current user session.,,20-05-2025 03:18:38,20-05-2025 03:18:50,11.665s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/img_Simikro_profile-image rounded-circle""))",Firefox 138.0.4,,,20-05-2025 03:18:40,20-05-2025 03:18:41,0.656s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/button_Keluar""))",Firefox 138.0.4,,,20-05-2025 03:18:41,20-05-2025 03:18:41,0.752s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/button_Ya""))",Firefox 138.0.4,,,20-05-2025 03:18:41,20-05-2025 03:18:46,4.949s,PASSED
+pageVerification.GoToWelcome.verifyWelcomePageIsDisplayed(),Firefox 138.0.4,,,20-05-2025 03:18:46,20-05-2025 03:18:48,1.361s,PASSED
+takeFullPageScreenshot(STOP_ON_FAILURE),Firefox 138.0.4,,,20-05-2025 03:18:48,20-05-2025 03:18:49,0.751s,PASSED
+closeBrowser(),Firefox 138.0.4,,,20-05-2025 03:18:49,20-05-2025 03:18:50,1.561s,PASSED
+,,,,,,,
+Test Cases/Common/Login/TC_LoginAdminPT,Firefox 138.0.4,Logs in as an institution administrator.,,20-05-2025 03:18:50,20-05-2025 03:19:28,38.263s,PASSED
+"DATA BINDING - {""(Default) Role"":""AdminPT"",""(Default) Email"":""admin1@example.com"",""(Default) Passw..."":""8SQVv/p9jVScEs4/2CZsLw\u003d\u003d""}",,,,,,,
+"openBrowser("""")",Firefox 138.0.4,,,20-05-2025 03:18:50,20-05-2025 03:19:02,11.759s,PASSED
+navigateToUrl(URL_Test_Env),Firefox 138.0.4,,,20-05-2025 03:19:02,20-05-2025 03:19:07,5.075s,PASSED
+maximizeWindow(),Firefox 138.0.4,,,20-05-2025 03:19:07,20-05-2025 03:19:08,0.712s,PASSED
+pageVerification.GoToWelcome.verifyWelcomePageIsDisplayed(),Firefox 138.0.4,,,20-05-2025 03:19:08,20-05-2025 03:19:10,1.897s,PASSED
+takeFullPageScreenshot(STOP_ON_FAILURE),Firefox 138.0.4,,,20-05-2025 03:19:10,20-05-2025 03:19:11,1.256s,PASSED
+"click(findTestObject(""Object Repository/Page_Welcome - Simikro/a_Login""))",Firefox 138.0.4,,,20-05-2025 03:19:11,20-05-2025 03:19:16,5.052s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login - Simikro/input_Email_email""), Email)",Firefox 138.0.4,,,20-05-2025 03:19:16,20-05-2025 03:19:17,0.829s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login - Simikro/input_Password_password""), Password)",Firefox 138.0.4,,,20-05-2025 03:19:17,20-05-2025 03:19:17,0.456s,PASSED
+"click(findTestObject(""Object Repository/Page_Login - Simikro/button_Masuk""))",Firefox 138.0.4,,,20-05-2025 03:19:17,20-05-2025 03:19:24,6.970s,PASSED
+pageVerification.GoToDashboard.verifyRoleIsDisplayed(Role),Firefox 138.0.4,,,20-05-2025 03:19:24,20-05-2025 03:19:25,0.872s,PASSED
+takeFullPageScreenshot(STOP_ON_FAILURE),Firefox 138.0.4,,,20-05-2025 03:19:25,20-05-2025 03:19:28,3.042s,PASSED
+,,,,,,,
+Test Cases/Common/TC_EditProfile,Firefox 138.0.4,Edits user profile information.,,20-05-2025 03:19:28,20-05-2025 03:19:58,29.727s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Report - Simikro/span_Pengaturan""), 0)",Firefox 138.0.4,,,20-05-2025 03:19:28,20-05-2025 03:19:29,0.325s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/span_Pengaturan""))",Firefox 138.0.4,,,20-05-2025 03:19:29,20-05-2025 03:19:29,0.601s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Report - Simikro/span_Profil Pengguna""), 0)",Firefox 138.0.4,,,20-05-2025 03:19:29,20-05-2025 03:19:30,0.790s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/span_Profil Pengguna""))",Firefox 138.0.4,,,20-05-2025 03:19:30,20-05-2025 03:19:34,3.567s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Profil Master - Simikro/a_Edit Profil""), 0)",Firefox 138.0.4,,,20-05-2025 03:19:34,20-05-2025 03:19:43,9.474s,PASSED
+"click(findTestObject(""Object Repository/Page_Profil Master - Simikro/a_Edit Profil""))",Firefox 138.0.4,,,20-05-2025 03:19:43,20-05-2025 03:19:50,6.831s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Profil Master - Simikro/button_Simpan Perubahan""), 0)",Firefox 138.0.4,,,20-05-2025 03:19:50,20-05-2025 03:19:51,0.520s,PASSED
+"click(findTestObject(""Object Repository/Page_Profil Master - Simikro/button_Simpan Perubahan""))",Firefox 138.0.4,,,20-05-2025 03:19:51,20-05-2025 03:19:58,7.432s,PASSED
+,,,,,,,
+Test Cases/User Flow/AdminPT/TC_ValidatingSubmission,Firefox 138.0.4,Validates a student's submission as an institution administrator.,,20-05-2025 03:19:58,20-05-2025 03:20:40,42.262s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/span_Pengajuan Konversi""))",Firefox 138.0.4,,,20-05-2025 03:19:59,20-05-2025 03:20:06,7.398s,PASSED
+"click(findTestObject(""Page_Report - Simikro/td_Teknik Informatika""))",Firefox 138.0.4,,,20-05-2025 03:20:06,20-05-2025 03:20:13,6.119s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/td_Eko Prasetyo""))",Firefox 138.0.4,,,20-05-2025 03:20:13,20-05-2025 03:20:17,4.325s,PASSED
+takeFullPageScreenshot(),Firefox 138.0.4,,,20-05-2025 03:20:17,20-05-2025 03:20:21,3.739s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/a_Validasi Berkas""))",Firefox 138.0.4,,,20-05-2025 03:20:21,20-05-2025 03:20:25,4.680s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_report - Simikro/input_VALID_laprak""), 0)",Firefox 138.0.4,,,20-05-2025 03:20:25,20-05-2025 03:20:26,0.442s,PASSED
+"click(findTestObject(""Object Repository/Page_report - Simikro/input_VALID_laprak""))",Firefox 138.0.4,,,20-05-2025 03:20:26,20-05-2025 03:20:26,0.552s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_report - Simikro/input_VALID_sertifikat""), 0)",Firefox 138.0.4,,,20-05-2025 03:20:26,20-05-2025 03:20:27,0.254s,PASSED
+"click(findTestObject(""Object Repository/Page_report - Simikro/input_VALID_sertifikat""))",Firefox 138.0.4,,,20-05-2025 03:20:27,20-05-2025 03:20:27,0.455s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_report - Simikro/input_VALID_dokumentasi""), 0)",Firefox 138.0.4,,,20-05-2025 03:20:27,20-05-2025 03:20:27,0.272s,PASSED
+"click(findTestObject(""Object Repository/Page_report - Simikro/input_VALID_dokumentasi""))",Firefox 138.0.4,,,20-05-2025 03:20:27,20-05-2025 03:20:28,0.509s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_report - Simikro/input_NILAI REKOMENDASI PROGRAM_nilai_sertifikat""), 0)",Firefox 138.0.4,,,20-05-2025 03:20:28,20-05-2025 03:20:28,0.359s,PASSED
+"setText(findTestObject(""Object Repository/Page_report - Simikro/input_NILAI REKOMENDASI PROGRAM_nilai_sertifikat""), ""90"")",Firefox 138.0.4,,,20-05-2025 03:20:28,20-05-2025 03:20:29,0.687s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_report - Simikro/input_VALID_tes_mikroskill""), 0)",Firefox 138.0.4,,,20-05-2025 03:20:29,20-05-2025 03:20:29,0.272s,PASSED
+"click(findTestObject(""Object Repository/Page_report - Simikro/input_VALID_tes_mikroskill""))",Firefox 138.0.4,,,20-05-2025 03:20:29,20-05-2025 03:20:30,0.551s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_report - Simikro/input_TIDAK                                _1c4649""), 0)",Firefox 138.0.4,,,20-05-2025 03:20:30,20-05-2025 03:20:30,0.259s,PASSED
+"setText(findTestObject(""Object Repository/Page_report - Simikro/input_TIDAK                                _1c4649""), ""90"")",Firefox 138.0.4,,,20-05-2025 03:20:30,20-05-2025 03:20:31,0.641s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_report - Simikro/input_MAKSIMAL SKS_maks_sks""), 0)",Firefox 138.0.4,,,20-05-2025 03:20:31,20-05-2025 03:20:31,0.271s,PASSED
+"setText(findTestObject(""Object Repository/Page_report - Simikro/input_MAKSIMAL SKS_maks_sks""), ""20"")",Firefox 138.0.4,,,20-05-2025 03:20:31,20-05-2025 03:20:31,0.527s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_report - Simikro/textarea_KOMENTAR_feedback""), 0)",Firefox 138.0.4,,,20-05-2025 03:20:31,20-05-2025 03:20:32,0.281s,PASSED
+"setText(findTestObject(""Object Repository/Page_report - Simikro/textarea_KOMENTAR_feedback""), ""Okay"")",Firefox 138.0.4,,,20-05-2025 03:20:32,20-05-2025 03:20:32,0.577s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_report - Simikro/button_Save""), 0)",Firefox 138.0.4,,,20-05-2025 03:20:32,20-05-2025 03:20:33,0.405s,PASSED
+"click(findTestObject(""Object Repository/Page_report - Simikro/button_Save""))",Firefox 138.0.4,,,20-05-2025 03:20:33,20-05-2025 03:20:37,4.285s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Report - Simikro/span_MENUNGGU PENILAIAN""), ""MENUNGGU PENILAIAN"")",Firefox 138.0.4,,,20-05-2025 03:20:37,20-05-2025 03:20:38,0.925s,PASSED
+takeFullPageScreenshot(),Firefox 138.0.4,,,20-05-2025 03:20:38,20-05-2025 03:20:40,2.575s,PASSED
+,,,,,,,
+Test Cases/User Flow/AdminPT/TC_CheckSubmission,Firefox 138.0.4,Reviews submission details as an institution administrator.,,20-05-2025 03:20:40,20-05-2025 03:21:17,36.755s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/span_Pengajuan Konversi""))",Firefox 138.0.4,,,20-05-2025 03:20:41,20-05-2025 03:20:47,5.876s,PASSED
+"click(findTestObject(""Page_Report - Simikro/td_Teknik Informatika""))",Firefox 138.0.4,,,20-05-2025 03:20:47,20-05-2025 03:20:52,5.984s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/td_Eko Prasetyo""))",Firefox 138.0.4,,,20-05-2025 03:20:52,20-05-2025 03:20:57,4.671s,PASSED
+takeFullPageScreenshot(),Firefox 138.0.4,,,20-05-2025 03:20:57,20-05-2025 03:21:00,3.242s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/a_Rincian""))",Firefox 138.0.4,,,20-05-2025 03:21:00,20-05-2025 03:21:05,4.547s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Report - Simikro/h2_Rincian        Laporan Akhir""))",Firefox 138.0.4,,,20-05-2025 03:21:05,20-05-2025 03:21:05,0.281s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Report - Simikro/i_Berkas Laporan_fas fa-file-pdf""), 0)",Firefox 138.0.4,,,20-05-2025 03:21:05,20-05-2025 03:21:06,0.295s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Report - Simikro/i_Berkas Laporan_fas fa-file-pdf""), STOP_ON_FAILURE)",Firefox 138.0.4,,,20-05-2025 03:21:06,20-05-2025 03:21:06,0.307s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Report - Simikro/i_Berkas Sertifikat_fas fa-file-pdf""), 0)",Firefox 138.0.4,,,20-05-2025 03:21:06,20-05-2025 03:21:06,0.330s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Report - Simikro/i_Berkas Sertifikat_fas fa-file-pdf""), STOP_ON_FAILURE)",Firefox 138.0.4,,,20-05-2025 03:21:06,20-05-2025 03:21:06,0.287s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Report - Simikro/i_Berkas Dokumentasi_fas fa-file-pdf""), 0)",Firefox 138.0.4,,,20-05-2025 03:21:06,20-05-2025 03:21:07,0.301s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Report - Simikro/i_Berkas Dokumentasi_fas fa-file-pdf""), STOP_ON_FAILURE)",Firefox 138.0.4,,,20-05-2025 03:21:07,20-05-2025 03:21:07,0.315s,PASSED
+"scrollToElement(findTestObject(""Page_Report - Simikro/a_Back""), 0)",Firefox 138.0.4,,,20-05-2025 03:21:07,20-05-2025 03:21:07,0.303s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/a_Back""))",Firefox 138.0.4,,,20-05-2025 03:21:07,20-05-2025 03:21:14,6.374s,PASSED
+"navigateToUrl(""http://127.0.0.1:8000/dashboard"")",Firefox 138.0.4,,,20-05-2025 03:21:14,20-05-2025 03:21:17,3.422s,PASSED
+,,,,,,,
+Test Cases/Common/TC_Logout,Firefox 138.0.4,Logs out the current user session.,,20-05-2025 03:21:17,20-05-2025 03:21:29,11.998s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/img_Simikro_profile-image rounded-circle""))",Firefox 138.0.4,,,20-05-2025 03:21:18,20-05-2025 03:21:18,0.592s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/button_Keluar""))",Firefox 138.0.4,,,20-05-2025 03:21:18,20-05-2025 03:21:19,0.501s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/button_Ya""))",Firefox 138.0.4,,,20-05-2025 03:21:19,20-05-2025 03:21:24,4.850s,PASSED
+pageVerification.GoToWelcome.verifyWelcomePageIsDisplayed(),Firefox 138.0.4,,,20-05-2025 03:21:24,20-05-2025 03:21:25,1.361s,PASSED
+takeFullPageScreenshot(STOP_ON_FAILURE),Firefox 138.0.4,,,20-05-2025 03:21:25,20-05-2025 03:21:26,0.854s,PASSED
+closeBrowser(),Firefox 138.0.4,,,20-05-2025 03:21:26,20-05-2025 03:21:29,3.503s,PASSED
+,,,,,,,
+Test Cases/Common/Login/TC_LoginProdi,Firefox 138.0.4,Logs in as a study program representative.,,20-05-2025 03:21:29,20-05-2025 03:22:08,38.884s,PASSED
+"DATA BINDING - {""(Default) Role"":""Prodi"",""(Default) Email"":""dosen@example.com"",""(Default) Passw..."":""8SQVv/p9jVScEs4/2CZsLw\u003d\u003d""}",,,,,,,
+"openBrowser("""")",Firefox 138.0.4,,,20-05-2025 03:21:29,20-05-2025 03:21:38,8.744s,PASSED
+navigateToUrl(URL_Test_Env),Firefox 138.0.4,,,20-05-2025 03:21:38,20-05-2025 03:21:43,5.270s,PASSED
+maximizeWindow(),Firefox 138.0.4,,,20-05-2025 03:21:43,20-05-2025 03:21:44,0.443s,PASSED
+pageVerification.GoToWelcome.verifyWelcomePageIsDisplayed(),Firefox 138.0.4,,,20-05-2025 03:21:44,20-05-2025 03:21:45,1.507s,PASSED
+takeFullPageScreenshot(STOP_ON_FAILURE),Firefox 138.0.4,,,20-05-2025 03:21:45,20-05-2025 03:21:47,1.142s,PASSED
+"click(findTestObject(""Object Repository/Page_Welcome - Simikro/a_Login""))",Firefox 138.0.4,,,20-05-2025 03:21:47,20-05-2025 03:21:54,7.014s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login - Simikro/input_Email_email""), Email)",Firefox 138.0.4,,,20-05-2025 03:21:54,20-05-2025 03:21:54,0.785s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login - Simikro/input_Password_password""), Password)",Firefox 138.0.4,,,20-05-2025 03:21:54,20-05-2025 03:21:55,0.325s,PASSED
+"click(findTestObject(""Object Repository/Page_Login - Simikro/button_Masuk""))",Firefox 138.0.4,,,20-05-2025 03:21:55,20-05-2025 03:22:02,7.532s,PASSED
+pageVerification.GoToDashboard.verifyRoleIsDisplayed(Role),Firefox 138.0.4,,,20-05-2025 03:22:02,20-05-2025 03:22:03,1.163s,PASSED
+takeFullPageScreenshot(STOP_ON_FAILURE),Firefox 138.0.4,,,20-05-2025 03:22:03,20-05-2025 03:22:08,4.731s,PASSED
+,,,,,,,
+Test Cases/Common/TC_EditProfile,Firefox 138.0.4,Edits user profile information.,,20-05-2025 03:22:08,20-05-2025 03:22:32,24.319s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Report - Simikro/span_Pengaturan""), 0)",Firefox 138.0.4,,,20-05-2025 03:22:08,20-05-2025 03:22:09,0.367s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/span_Pengaturan""))",Firefox 138.0.4,,,20-05-2025 03:22:09,20-05-2025 03:22:09,0.607s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Report - Simikro/span_Profil Pengguna""), 0)",Firefox 138.0.4,,,20-05-2025 03:22:09,20-05-2025 03:22:10,0.802s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/span_Profil Pengguna""))",Firefox 138.0.4,,,20-05-2025 03:22:10,20-05-2025 03:22:16,6.005s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Profil Master - Simikro/a_Edit Profil""), 0)",Firefox 138.0.4,,,20-05-2025 03:22:16,20-05-2025 03:22:17,0.551s,PASSED
+"click(findTestObject(""Object Repository/Page_Profil Master - Simikro/a_Edit Profil""))",Firefox 138.0.4,,,20-05-2025 03:22:17,20-05-2025 03:22:24,7.765s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Profil Master - Simikro/button_Simpan Perubahan""), 0)",Firefox 138.0.4,,,20-05-2025 03:22:24,20-05-2025 03:22:25,0.304s,PASSED
+"click(findTestObject(""Object Repository/Page_Profil Master - Simikro/button_Simpan Perubahan""))",Firefox 138.0.4,,,20-05-2025 03:22:25,20-05-2025 03:22:32,7.850s,PASSED
+,,,,,,,
+Test Cases/User Flow/Prodi/TC_AddSubject,Firefox 138.0.4,Adds a new subject to the study program.,,20-05-2025 03:22:33,20-05-2025 03:22:53,20.108s,PASSED
+"click(findTestObject(""Object Repository/Page_Penilaian MBKM - Simikro/span_Mata Kuliah""))",Firefox 138.0.4,,,20-05-2025 03:22:33,20-05-2025 03:22:38,5.657s,PASSED
+takeFullPageScreenshot(),Firefox 138.0.4,,,20-05-2025 03:22:38,20-05-2025 03:22:42,3.870s,PASSED
+"click(findTestObject(""Object Repository/Page_Mata Kuliah - Simikro/button_Tambah Mata Kuliah""))",Firefox 138.0.4,,,20-05-2025 03:22:42,20-05-2025 03:22:43,0.660s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mata Kuliah - Simikro/textarea_Aksi_name""), ""New Subject"")",Firefox 138.0.4,,,20-05-2025 03:22:43,20-05-2025 03:22:44,0.908s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mata Kuliah - Simikro/input_Aksi_sks""), ""3"")",Firefox 138.0.4,,,20-05-2025 03:22:44,20-05-2025 03:22:44,0.613s,PASSED
+"click(findTestObject(""Object Repository/Page_Mata Kuliah - Simikro/button_Simpan""))",Firefox 138.0.4,,,20-05-2025 03:22:44,20-05-2025 03:22:49,4.861s,PASSED
+takeFullPageScreenshot(),Firefox 138.0.4,,,20-05-2025 03:22:49,20-05-2025 03:22:53,3.283s,PASSED
+,,,,,,,
+Test Cases/User Flow/Prodi/TC_DeleteSubject,Firefox 138.0.4,Removes an existing subject from the study program.,,20-05-2025 03:22:53,20-05-2025 03:23:10,16.876s,PASSED
+takeFullPageScreenshot(),Firefox 138.0.4,,,20-05-2025 03:22:53,20-05-2025 03:22:56,2.893s,PASSED
+"scrollToElement(findTestObject(""Page_Mata Kuliah - Simikro/i_Teknik Informatika_fa fa-trash""), 0)",Firefox 138.0.4,,,20-05-2025 03:22:56,20-05-2025 03:22:56,0.285s,PASSED
+"click(findTestObject(""Object Repository/Page_Mata Kuliah - Simikro/i_Teknik Informatika_fa fa-trash""))",Firefox 138.0.4,,,20-05-2025 03:22:56,20-05-2025 03:22:57,0.573s,PASSED
+"click(findTestObject(""Object Repository/Page_Mata Kuliah - Simikro/button_Yes""))",Firefox 138.0.4,,,20-05-2025 03:22:57,20-05-2025 03:23:00,3.545s,PASSED
+takeFullPageScreenshot(),Firefox 138.0.4,,,20-05-2025 03:23:00,20-05-2025 03:23:01,0.713s,PASSED
+"navigateToUrl(""http://127.0.0.1:8000/dashboard"")",Firefox 138.0.4,,,20-05-2025 03:23:01,20-05-2025 03:23:09,8.351s,PASSED
+,,,,,,,
+Test Cases/User Flow/Prodi/TC_AssessingSubmission,Firefox 138.0.4,Assesses a student’s submission as a study program representative.,,20-05-2025 03:23:10,20-05-2025 03:24:29,1m - 19.164s,PASSED
+"click(findTestObject(""Object Repository/Page_Mata Kuliah - Simikro/span_Pengajuan Konversi""))",Firefox 138.0.4,,,20-05-2025 03:23:10,20-05-2025 03:23:18,8.072s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/td_Eko Prasetyo""))",Firefox 138.0.4,,,20-05-2025 03:23:18,20-05-2025 03:23:23,4.118s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Report - Simikro/span_MENUNGGU PENILAIAN""), ""MENUNGGU PENILAIAN"")",Firefox 138.0.4,,,20-05-2025 03:23:23,20-05-2025 03:23:23,0.701s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Report - Simikro/i_Eko Prasetyo_fas fa-file-pdf_1""))",Firefox 138.0.4,,,20-05-2025 03:23:23,20-05-2025 03:23:24,0.254s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Report - Simikro/i_Eko Prasetyo_fas fa-file-pdf_1_2""))",Firefox 138.0.4,,,20-05-2025 03:23:24,20-05-2025 03:23:24,0.278s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Report - Simikro/i_Eko Prasetyo_fas fa-file-pdf""))",Firefox 138.0.4,,,20-05-2025 03:23:24,20-05-2025 03:23:24,0.272s,PASSED
+takeFullPageScreenshot(),Firefox 138.0.4,,,20-05-2025 03:23:24,20-05-2025 03:23:27,2.661s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/a_Mulai Penilaian""))",Firefox 138.0.4,,,20-05-2025 03:23:27,20-05-2025 03:23:31,3.923s,PASSED
+"rightClick(findTestObject(""Object Repository/Page_Penilaian MBKM - Simikro/label_Nilai Rekomendasi Program            _79c0da""))",Firefox 138.0.4,,,20-05-2025 03:23:31,20-05-2025 03:23:31,0.701s,PASSED
+"click(findTestObject(""Object Repository/Page_Penilaian MBKM - Simikro/button_Pilih Mata Kuliah""))",Firefox 138.0.4,,,20-05-2025 03:23:31,20-05-2025 03:23:32,0.556s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Penilaian MBKM - Simikro/select_Pilih Mata Kuliah                   _9d5dd4""), ""1"", true)",Firefox 138.0.4,,,20-05-2025 03:23:32,20-05-2025 03:23:33,1.292s,PASSED
+"setText(findTestObject(""Object Repository/Page_Penilaian MBKM - Simikro/input_Aksi_nilai""), ""90"")",Firefox 138.0.4,,,20-05-2025 03:23:33,20-05-2025 03:23:34,0.547s,PASSED
+"click(findTestObject(""Object Repository/Page_Penilaian MBKM - Simikro/button_Tambah Data""))",Firefox 138.0.4,,,20-05-2025 03:23:34,20-05-2025 03:23:34,0.507s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Penilaian MBKM - Simikro/select_Pilih Mata Kuliah                   _72d249""), ""2"", true)",Firefox 138.0.4,,,20-05-2025 03:23:34,20-05-2025 03:23:35,1.115s,PASSED
+"setText(findTestObject(""Object Repository/Page_Penilaian MBKM - Simikro/input_Aksi_nilai_1""), ""85"")",Firefox 138.0.4,,,20-05-2025 03:23:35,20-05-2025 03:23:36,0.537s,PASSED
+"click(findTestObject(""Object Repository/Page_Penilaian MBKM - Simikro/button_Tambah Data""))",Firefox 138.0.4,,,20-05-2025 03:23:36,20-05-2025 03:23:36,0.482s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Penilaian MBKM - Simikro/select_Pilih Mata Kuliah                   _72d249_1""), ""3"", true)",Firefox 138.0.4,,,20-05-2025 03:23:36,20-05-2025 03:23:38,1.188s,PASSED
+"setText(findTestObject(""Object Repository/Page_Penilaian MBKM - Simikro/input_Aksi_nilai_1_2""), ""80"")",Firefox 138.0.4,,,20-05-2025 03:23:38,20-05-2025 03:23:38,0.543s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Penilaian MBKM - Simikro/button_Simpan""), 0)",Firefox 138.0.4,,,20-05-2025 03:23:38,20-05-2025 03:23:38,0.312s,PASSED
+"click(findTestObject(""Object Repository/Page_Penilaian MBKM - Simikro/button_Simpan""))",Firefox 138.0.4,,,20-05-2025 03:23:38,20-05-2025 03:23:45,6.558s,PASSED
+"click(findTestObject(""Object Repository/Page_Penilaian MBKM - Simikro/a_Terbitkan""))",Firefox 138.0.4,,,20-05-2025 03:23:45,20-05-2025 03:24:19,34.267s,PASSED
+takeFullPageScreenshot(),Firefox 138.0.4,,,20-05-2025 03:24:19,20-05-2025 03:24:21,2.014s,PASSED
+"click(findTestObject(""Object Repository/Page_Penilaian MBKM - Simikro/a_Hasil Penilaian""))",Firefox 138.0.4,,,20-05-2025 03:24:21,20-05-2025 03:24:23,1.407s,PASSED
+delay(3),Firefox 138.0.4,,,20-05-2025 03:24:23,20-05-2025 03:24:26,3.053s,PASSED
+takeFullPageScreenshot(),Firefox 138.0.4,,,20-05-2025 03:24:26,20-05-2025 03:24:26,0.495s,PASSED
+"navigateToUrl(""http://127.0.0.1:8000/dashboard"")",Firefox 138.0.4,,,20-05-2025 03:24:26,20-05-2025 03:24:29,2.483s,PASSED
+,,,,,,,
+Test Cases/Common/TC_Logout,Firefox 138.0.4,Logs out the current user session.,,20-05-2025 03:24:29,20-05-2025 03:24:35,6.339s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/img_Simikro_profile-image rounded-circle""))",Firefox 138.0.4,,,20-05-2025 03:24:29,20-05-2025 03:24:30,0.765s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/button_Keluar""))",Firefox 138.0.4,,,20-05-2025 03:24:30,20-05-2025 03:24:30,0.498s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/button_Ya""))",Firefox 138.0.4,,,20-05-2025 03:24:30,20-05-2025 03:24:32,1.786s,PASSED
+pageVerification.GoToWelcome.verifyWelcomePageIsDisplayed(),Firefox 138.0.4,,,20-05-2025 03:24:32,20-05-2025 03:24:33,1.394s,PASSED
+takeFullPageScreenshot(STOP_ON_FAILURE),Firefox 138.0.4,,,20-05-2025 03:24:33,20-05-2025 03:24:34,0.391s,PASSED
+closeBrowser(),Firefox 138.0.4,,,20-05-2025 03:24:34,20-05-2025 03:24:35,1.440s,PASSED

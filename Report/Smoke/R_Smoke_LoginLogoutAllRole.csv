@@ -1,0 +1,92 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_LoginLogoutAllRole,Chrome 136.0.7103.93,,,15-05-2025 02:32:37,15-05-2025 02:33:27,49.470s,PASSED
+,,,,,,,
+Test Cases/Common/Login/TC_LoginAdminPT,Chrome 136.0.7103.93,,,15-05-2025 02:32:38,15-05-2025 02:32:52,13.677s,PASSED
+"DATA BINDING - {""(Default) Role"":""AdminPT"",""(Default) Email"":""admin1@example.com"",""(Default) Passw..."":""8SQVv/p9jVScEs4/2CZsLw\u003d\u003d""}",,,,,,,
+"openBrowser("""")",Chrome 136.0.7103.93,,,15-05-2025 02:32:39,15-05-2025 02:32:42,2.902s,PASSED
+navigateToUrl(URL_Test_Env),Chrome 136.0.7103.93,,,15-05-2025 02:32:42,15-05-2025 02:32:43,0.984s,PASSED
+maximizeWindow(),Chrome 136.0.7103.93,,,15-05-2025 02:32:43,15-05-2025 02:32:43,0.095s,PASSED
+"verifyElementVisible(findTestObject(""Page_Welcome - Simikro/img""))",Chrome 136.0.7103.93,,,15-05-2025 02:32:43,15-05-2025 02:32:43,0.462s,PASSED
+"verifyElementVisible(findTestObject(""Page_Welcome - Simikro/h2_Simikro""))",Chrome 136.0.7103.93,,,15-05-2025 02:32:43,15-05-2025 02:32:44,0.265s,PASSED
+"verifyElementVisible(findTestObject(""Page_Welcome - Simikro/p_Simikro adalah sistem digital inovatif yang dirancang untuk mempermudah evaluasi capaian microskill dalam program Merdeka Belajar Kampus Merdeka (MBKM). Dengan platform ini, mahasiswa dan dosen dapat mengakses, menilai""))",Chrome 136.0.7103.93,,,15-05-2025 02:32:44,15-05-2025 02:32:44,0.260s,PASSED
+"verifyElementVisible(findTestObject(""Page_Welcome - Simikro/p_Mahasiswa dapat memantau hasil evaluasi secara real-time, memahami standar penilaian, serta mendapatkan umpan balik langsung dari dosen. Sementara itu, dosen dapat melakukan penilaian dengan lebih sistematis melalui fo""))",Chrome 136.0.7103.93,,,15-05-2025 02:32:44,15-05-2025 02:32:44,0.267s,PASSED
+takeFullPageScreenshot(STOP_ON_FAILURE),Chrome 136.0.7103.93,,,15-05-2025 02:32:44,15-05-2025 02:32:45,0.926s,PASSED
+"click(findTestObject(""Object Repository/Page_Welcome - Simikro/a_Login""))",Chrome 136.0.7103.93,,,15-05-2025 02:32:45,15-05-2025 02:32:46,1.292s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login - Simikro/input_Email_email""), Email)",Chrome 136.0.7103.93,,,15-05-2025 02:32:46,15-05-2025 02:32:47,0.791s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login - Simikro/input_Password_password""), Password)",Chrome 136.0.7103.93,,,15-05-2025 02:32:47,15-05-2025 02:32:48,0.440s,PASSED
+"click(findTestObject(""Object Repository/Page_Login - Simikro/button_Masuk""))",Chrome 136.0.7103.93,,,15-05-2025 02:32:48,15-05-2025 02:32:50,2.422s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Dashboard - Simikro/h1_Dashboard""), ""Dashboard"")",Chrome 136.0.7103.93,,,15-05-2025 02:32:50,15-05-2025 02:32:50,0.439s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Dashboard - Simikro/span_AdminPT_1""), Role)",Chrome 136.0.7103.93,,,15-05-2025 02:32:50,15-05-2025 02:32:51,0.273s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Dashboard - Simikro/span_AdminPT""), Role)",Chrome 136.0.7103.93,,,15-05-2025 02:32:51,15-05-2025 02:32:51,0.301s,PASSED
+takeFullPageScreenshot(STOP_ON_FAILURE),Chrome 136.0.7103.93,,,15-05-2025 02:32:51,15-05-2025 02:32:52,0.779s,PASSED
+,,,,,,,
+Test Cases/Common/TC_Logout,Chrome 136.0.7103.93,,,15-05-2025 02:32:52,15-05-2025 02:32:57,4.831s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/img_Simikro_profile-image rounded-circle""))",Chrome 136.0.7103.93,,,15-05-2025 02:32:52,15-05-2025 02:32:52,0.321s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/button_Keluar""))",Chrome 136.0.7103.93,,,15-05-2025 02:32:52,15-05-2025 02:32:53,0.339s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/button_Ya""))",Chrome 136.0.7103.93,,,15-05-2025 02:32:53,15-05-2025 02:32:53,0.586s,PASSED
+"verifyElementVisible(findTestObject(""Page_Welcome - Simikro/img""))",Chrome 136.0.7103.93,,,15-05-2025 02:32:53,15-05-2025 02:32:55,1.674s,PASSED
+"verifyElementVisible(findTestObject(""Page_Welcome - Simikro/h2_Simikro""))",Chrome 136.0.7103.93,,,15-05-2025 02:32:55,15-05-2025 02:32:55,0.262s,PASSED
+"verifyElementVisible(findTestObject(""Page_Welcome - Simikro/p_Simikro adalah sistem digital inovatif yang dirancang untuk mempermudah evaluasi capaian microskill dalam program Merdeka Belajar Kampus Merdeka (MBKM). Dengan platform ini, mahasiswa dan dosen dapat mengakses, menilai""))",Chrome 136.0.7103.93,,,15-05-2025 02:32:55,15-05-2025 02:32:55,0.271s,PASSED
+"verifyElementVisible(findTestObject(""Page_Welcome - Simikro/p_Mahasiswa dapat memantau hasil evaluasi secara real-time, memahami standar penilaian, serta mendapatkan umpan balik langsung dari dosen. Sementara itu, dosen dapat melakukan penilaian dengan lebih sistematis melalui fo""))",Chrome 136.0.7103.93,,,15-05-2025 02:32:55,15-05-2025 02:32:56,0.260s,PASSED
+takeFullPageScreenshot(STOP_ON_FAILURE),Chrome 136.0.7103.93,,,15-05-2025 02:32:56,15-05-2025 02:32:56,0.687s,PASSED
+closeBrowser(),Chrome 136.0.7103.93,,,15-05-2025 02:32:56,15-05-2025 02:32:57,0.324s,PASSED
+,,,,,,,
+Test Cases/Common/Login/TC_LoginProdi,Chrome 136.0.7103.93,,,15-05-2025 02:32:57,15-05-2025 02:33:07,10.893s,PASSED
+"DATA BINDING - {""(Default) Role"":""Prodi"",""(Default) Email"":""dosen@example.com"",""(Default) Passw..."":""8SQVv/p9jVScEs4/2CZsLw\u003d\u003d""}",,,,,,,
+"openBrowser("""")",Chrome 136.0.7103.93,,,15-05-2025 02:32:57,15-05-2025 02:32:58,1.178s,PASSED
+navigateToUrl(URL_Test_Env),Chrome 136.0.7103.93,,,15-05-2025 02:32:58,15-05-2025 02:32:59,0.784s,PASSED
+maximizeWindow(),Chrome 136.0.7103.93,,,15-05-2025 02:32:59,15-05-2025 02:32:59,0.097s,PASSED
+"verifyElementVisible(findTestObject(""Page_Welcome - Simikro/img""))",Chrome 136.0.7103.93,,,15-05-2025 02:32:59,15-05-2025 02:32:59,0.305s,PASSED
+"verifyElementVisible(findTestObject(""Page_Welcome - Simikro/h2_Simikro""))",Chrome 136.0.7103.93,,,15-05-2025 02:32:59,15-05-2025 02:33:00,0.282s,PASSED
+"verifyElementVisible(findTestObject(""Page_Welcome - Simikro/p_Simikro adalah sistem digital inovatif yang dirancang untuk mempermudah evaluasi capaian microskill dalam program Merdeka Belajar Kampus Merdeka (MBKM). Dengan platform ini, mahasiswa dan dosen dapat mengakses, menilai""))",Chrome 136.0.7103.93,,,15-05-2025 02:33:00,15-05-2025 02:33:00,0.264s,PASSED
+"verifyElementVisible(findTestObject(""Page_Welcome - Simikro/p_Mahasiswa dapat memantau hasil evaluasi secara real-time, memahami standar penilaian, serta mendapatkan umpan balik langsung dari dosen. Sementara itu, dosen dapat melakukan penilaian dengan lebih sistematis melalui fo""))",Chrome 136.0.7103.93,,,15-05-2025 02:33:00,15-05-2025 02:33:00,0.268s,PASSED
+takeFullPageScreenshot(STOP_ON_FAILURE),Chrome 136.0.7103.93,,,15-05-2025 02:33:00,15-05-2025 02:33:01,0.770s,PASSED
+"click(findTestObject(""Object Repository/Page_Welcome - Simikro/a_Login""))",Chrome 136.0.7103.93,,,15-05-2025 02:33:01,15-05-2025 02:33:02,1.309s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login - Simikro/input_Email_email""), Email)",Chrome 136.0.7103.93,,,15-05-2025 02:33:02,15-05-2025 02:33:03,0.710s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login - Simikro/input_Password_password""), Password)",Chrome 136.0.7103.93,,,15-05-2025 02:33:03,15-05-2025 02:33:03,0.400s,PASSED
+"click(findTestObject(""Object Repository/Page_Login - Simikro/button_Masuk""))",Chrome 136.0.7103.93,,,15-05-2025 02:33:03,15-05-2025 02:33:06,2.437s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Dashboard - Simikro/h1_Dashboard""), ""Dashboard"")",Chrome 136.0.7103.93,,,15-05-2025 02:33:06,15-05-2025 02:33:06,0.494s,PASSED
+"verifyElementText(findTestObject(""Page_Dashboard - Simikro/span_Prodi_1""), Role)",Chrome 136.0.7103.93,,,15-05-2025 02:33:06,15-05-2025 02:33:06,0.269s,PASSED
+"verifyElementText(findTestObject(""Page_Dashboard - Simikro/span_Prodi""), Role)",Chrome 136.0.7103.93,,,15-05-2025 02:33:06,15-05-2025 02:33:07,0.268s,PASSED
+takeFullPageScreenshot(STOP_ON_FAILURE),Chrome 136.0.7103.93,,,15-05-2025 02:33:07,15-05-2025 02:33:07,0.766s,PASSED
+,,,,,,,
+Test Cases/Common/TC_Logout,Chrome 136.0.7103.93,,,15-05-2025 02:33:07,15-05-2025 02:33:12,4.685s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/img_Simikro_profile-image rounded-circle""))",Chrome 136.0.7103.93,,,15-05-2025 02:33:08,15-05-2025 02:33:08,0.313s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/button_Keluar""))",Chrome 136.0.7103.93,,,15-05-2025 02:33:08,15-05-2025 02:33:08,0.363s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/button_Ya""))",Chrome 136.0.7103.93,,,15-05-2025 02:33:08,15-05-2025 02:33:10,1.697s,PASSED
+"verifyElementVisible(findTestObject(""Page_Welcome - Simikro/img""))",Chrome 136.0.7103.93,,,15-05-2025 02:33:10,15-05-2025 02:33:10,0.486s,PASSED
+"verifyElementVisible(findTestObject(""Page_Welcome - Simikro/h2_Simikro""))",Chrome 136.0.7103.93,,,15-05-2025 02:33:10,15-05-2025 02:33:11,0.264s,PASSED
+"verifyElementVisible(findTestObject(""Page_Welcome - Simikro/p_Simikro adalah sistem digital inovatif yang dirancang untuk mempermudah evaluasi capaian microskill dalam program Merdeka Belajar Kampus Merdeka (MBKM). Dengan platform ini, mahasiswa dan dosen dapat mengakses, menilai""))",Chrome 136.0.7103.93,,,15-05-2025 02:33:11,15-05-2025 02:33:11,0.270s,PASSED
+"verifyElementVisible(findTestObject(""Page_Welcome - Simikro/p_Mahasiswa dapat memantau hasil evaluasi secara real-time, memahami standar penilaian, serta mendapatkan umpan balik langsung dari dosen. Sementara itu, dosen dapat melakukan penilaian dengan lebih sistematis melalui fo""))",Chrome 136.0.7103.93,,,15-05-2025 02:33:11,15-05-2025 02:33:11,0.256s,PASSED
+takeFullPageScreenshot(STOP_ON_FAILURE),Chrome 136.0.7103.93,,,15-05-2025 02:33:11,15-05-2025 02:33:12,0.701s,PASSED
+closeBrowser(),Chrome 136.0.7103.93,,,15-05-2025 02:33:12,15-05-2025 02:33:12,0.297s,PASSED
+,,,,,,,
+Test Cases/Common/Login/TC_LoginMahasiswa,Chrome 136.0.7103.93,,,15-05-2025 02:33:12,15-05-2025 02:33:22,10.083s,PASSED
+"DATA BINDING - {""(Default) Role"":""Mahasiswa"",""(Default) Email"":""mahasiswa@example.com"",""(Default) Passw..."":""8SQVv/p9jVScEs4/2CZsLw\u003d\u003d""}",,,,,,,
+"openBrowser("""")",Chrome 136.0.7103.93,,,15-05-2025 02:33:12,15-05-2025 02:33:14,1.201s,PASSED
+navigateToUrl(URL_Test_Env),Chrome 136.0.7103.93,,,15-05-2025 02:33:14,15-05-2025 02:33:14,0.698s,PASSED
+maximizeWindow(),Chrome 136.0.7103.93,,,15-05-2025 02:33:14,15-05-2025 02:33:14,0.051s,PASSED
+"verifyElementVisible(findTestObject(""Page_Welcome - Simikro/img""))",Chrome 136.0.7103.93,,,15-05-2025 02:33:14,15-05-2025 02:33:15,0.398s,PASSED
+"verifyElementVisible(findTestObject(""Page_Welcome - Simikro/h2_Simikro""))",Chrome 136.0.7103.93,,,15-05-2025 02:33:15,15-05-2025 02:33:15,0.271s,PASSED
+"verifyElementVisible(findTestObject(""Page_Welcome - Simikro/p_Simikro adalah sistem digital inovatif yang dirancang untuk mempermudah evaluasi capaian microskill dalam program Merdeka Belajar Kampus Merdeka (MBKM). Dengan platform ini, mahasiswa dan dosen dapat mengakses, menilai""))",Chrome 136.0.7103.93,,,15-05-2025 02:33:15,15-05-2025 02:33:15,0.254s,PASSED
+"verifyElementVisible(findTestObject(""Page_Welcome - Simikro/p_Mahasiswa dapat memantau hasil evaluasi secara real-time, memahami standar penilaian, serta mendapatkan umpan balik langsung dari dosen. Sementara itu, dosen dapat melakukan penilaian dengan lebih sistematis melalui fo""))",Chrome 136.0.7103.93,,,15-05-2025 02:33:15,15-05-2025 02:33:16,0.254s,PASSED
+takeFullPageScreenshot(STOP_ON_FAILURE),Chrome 136.0.7103.93,,,15-05-2025 02:33:16,15-05-2025 02:33:16,0.718s,PASSED
+"click(findTestObject(""Object Repository/Page_Welcome - Simikro/a_Login""))",Chrome 136.0.7103.93,,,15-05-2025 02:33:16,15-05-2025 02:33:17,1.223s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login - Simikro/input_Email_email""), Email)",Chrome 136.0.7103.93,,,15-05-2025 02:33:17,15-05-2025 02:33:18,0.669s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login - Simikro/input_Password_password""), Password)",Chrome 136.0.7103.93,,,15-05-2025 02:33:18,15-05-2025 02:33:18,0.349s,PASSED
+"click(findTestObject(""Object Repository/Page_Login - Simikro/button_Masuk""))",Chrome 136.0.7103.93,,,15-05-2025 02:33:18,15-05-2025 02:33:21,2.162s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Dashboard - Simikro/h1_Dashboard""), ""Dashboard"")",Chrome 136.0.7103.93,,,15-05-2025 02:33:21,15-05-2025 02:33:21,0.486s,PASSED
+"verifyElementText(findTestObject(""Page_Dashboard - Simikro/span_Mahasiswa_1""), Role)",Chrome 136.0.7103.93,,,15-05-2025 02:33:21,15-05-2025 02:33:21,0.284s,PASSED
+"verifyElementText(findTestObject(""Page_Dashboard - Simikro/span_Mahasiswa""), Role)",Chrome 136.0.7103.93,,,15-05-2025 02:33:21,15-05-2025 02:33:22,0.273s,PASSED
+takeFullPageScreenshot(STOP_ON_FAILURE),Chrome 136.0.7103.93,,,15-05-2025 02:33:22,15-05-2025 02:33:22,0.550s,PASSED
+,,,,,,,
+Test Cases/Common/TC_Logout,Chrome 136.0.7103.93,,,15-05-2025 02:33:22,15-05-2025 02:33:27,4.482s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/img_Simikro_profile-image rounded-circle""))",Chrome 136.0.7103.93,,,15-05-2025 02:33:22,15-05-2025 02:33:23,0.339s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/button_Keluar""))",Chrome 136.0.7103.93,,,15-05-2025 02:33:23,15-05-2025 02:33:23,0.363s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/button_Ya""))",Chrome 136.0.7103.93,,,15-05-2025 02:33:23,15-05-2025 02:33:25,1.613s,PASSED
+"verifyElementVisible(findTestObject(""Page_Welcome - Simikro/img""))",Chrome 136.0.7103.93,,,15-05-2025 02:33:25,15-05-2025 02:33:25,0.489s,PASSED
+"verifyElementVisible(findTestObject(""Page_Welcome - Simikro/h2_Simikro""))",Chrome 136.0.7103.93,,,15-05-2025 02:33:25,15-05-2025 02:33:25,0.240s,PASSED
+"verifyElementVisible(findTestObject(""Page_Welcome - Simikro/p_Simikro adalah sistem digital inovatif yang dirancang untuk mempermudah evaluasi capaian microskill dalam program Merdeka Belajar Kampus Merdeka (MBKM). Dengan platform ini, mahasiswa dan dosen dapat mengakses, menilai""))",Chrome 136.0.7103.93,,,15-05-2025 02:33:25,15-05-2025 02:33:26,0.265s,PASSED
+"verifyElementVisible(findTestObject(""Page_Welcome - Simikro/p_Mahasiswa dapat memantau hasil evaluasi secara real-time, memahami standar penilaian, serta mendapatkan umpan balik langsung dari dosen. Sementara itu, dosen dapat melakukan penilaian dengan lebih sistematis melalui fo""))",Chrome 136.0.7103.93,,,15-05-2025 02:33:26,15-05-2025 02:33:26,0.247s,PASSED
+takeFullPageScreenshot(STOP_ON_FAILURE),Chrome 136.0.7103.93,,,15-05-2025 02:33:26,15-05-2025 02:33:26,0.656s,PASSED
+closeBrowser(),Chrome 136.0.7103.93,,,15-05-2025 02:33:26,15-05-2025 02:33:27,0.247s,PASSED

@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "DFB0DD48358AED024CF2F1A3DEC46A48",
+  "keywordClasses": [
+    {
+      "name": "pageVerification.GoToWelcome",
+      "keywordMethods": [
+        {
+          "name": "verifyWelcomePageIsDisplayed",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
