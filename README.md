@@ -25,29 +25,29 @@ Melakukan automation testing terhadap sistem Simikro menggunakan Katalon di ling
 4. **Pelaporan**: Generate laporan dalam format HTML, CSV, dan PDF
 
 ## 📊 Laporan Hasil Pengujian
-Laporan pengujian dibagi berdasarkan jenis pengujian dan browser:
+Laporan pengujian dibagi berdasarkan jenis pengujian:
 
 ### 🔹 Smoke Test
 - **Chrome**:
-[HTML](Report%20Document/Smoke/R_Smoke_LoginLogoutAllRole.html)
+[HTML Report](http://refindo.site/Report%20Document/Smoke/R_Smoke_LoginLogoutAllRole.html)
 
 ### 🔹 Regression Test
 - **Collection**:
-[HTML](Report%20Document/Regression/Collection/R_Regression_CheckSubmission.html)
+[HTML](http://refindo.site/Report%20Document/Regression/Collection/R_Regression_CheckSubmission.html)
 - **Chrome**:
-[HTML](Report%20Document/Regression/Chrome/R_Regression_CheckSubmission.html)
+[HTML](http://refindo.site/Report%20Document/Regression/Chrome/R_Regression_CheckSubmission.html)
 - **Firefox**:
-[HTML](Report%20Document/Regression/Firefox/R_Regression_CheckSubmission.html)
+[HTML](http://refindo.site/Report%20Document/Regression/Firefox/R_Regression_CheckSubmission.html)
 - **Edge**:
-[HTML](Report%20Document/Regression/Edge/R_Regression_CheckSubmission.html)
+[HTML](http://refindo.site/Report%20Document/Regression/Edge/R_Regression_CheckSubmission.html)
 
 ### 🔹 End-To-End Test
 - **Collection**:
-[HTML](Report%20Document/End-To-End/Collection/R_EndToEnd.html)
+[HTML](http://refindo.site/Report%20Document/End-To-End/Collection/R_EndToEnd.html)
 - **Chrome**:
-[HTML](Report%20Document/End-To-End/Chrome/R_EndToEnd.html)
+[HTML](http://refindo.site/Report%20Document/End-To-End/Chrome/R_EndToEnd.html)
 - **Firefox**:
-[HTML](Report%20Document/End-To-End/Firefox/R_EndToEnd.html)
+[HTML](http://refindo.site/Report%20Document/End-To-End/Firefox/R_EndToEnd.html)
 - **Edge**:
-[HTML](Report%20Document/End-To-End/Edge/R_EndToEnd.html)
+[HTML](http://refindo.site/Report%20Document/End-To-End/Edge/R_EndToEnd.html)
 
