@@ -29,11 +29,11 @@ Laporan pengujian dibagi berdasarkan jenis pengujian:
 
 ### 🔹 Smoke Test
 - **Chrome**:
-[HTML Report](http://refindo.site/Report%20Document/Smoke/R_Smoke_LoginLogoutAllRole.html)
+[HTML](http://refindo.site//Smoke/R_Smoke_LoginLogoutAllRole.html)
 
 ### 🔹 Regression Test
 - **Collection**:
-[HTML](http://refindo.site/Report%20Document/Regression/Collection/R_Regression_CheckSubmission.html)
+[HTML](http://refindo.site/Regression/Collection/R_Regression_CheckSubmission.html)
 - **Chrome**:
 [HTML](http://refindo.site/Report%20Document/Regression/Chrome/R_Regression_CheckSubmission.html)
 - **Firefox**:
@@ -43,11 +43,11 @@ Laporan pengujian dibagi berdasarkan jenis pengujian:
 
 ### 🔹 End-To-End Test
 - **Collection**:
-[HTML](http://refindo.site/Report%20Document/End-To-End/Collection/R_EndToEnd.html)
+[HTML](http://refindo.site/End-To-End/Collection/R_EndToEnd.html)
 - **Chrome**:
-[HTML](http://refindo.site/Report%20Document/End-To-End/Chrome/R_EndToEnd.html)
+[HTML](http://refindo.site/End-To-End/Chrome/R_EndToEnd.html)
 - **Firefox**:
-[HTML](http://refindo.site/Report%20Document/End-To-End/Firefox/R_EndToEnd.html)
+[HTML](http://refindo.site/End-To-End/Firefox/R_EndToEnd.html)
 - **Edge**:
-[HTML](http://refindo.site/Report%20Document/End-To-End/Edge/R_EndToEnd.html)
+[HTML](http://refindo.site/End-To-End/Edge/R_EndToEnd.html)
 
