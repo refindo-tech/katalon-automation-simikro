@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Creates a new submission as a student.</description>
+   <name>TC_AddSubmission</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ca9c5a9b-f22c-4074-af38-8ca1859c5d2c</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Assesses a student’s submission as a study program representative.</description>
+   <name>TC_AssessingSubmission</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f5c9b802-1bd3-4120-910c-cb73ec45c7d3</testCaseGuid>
+</TestCaseEntity>

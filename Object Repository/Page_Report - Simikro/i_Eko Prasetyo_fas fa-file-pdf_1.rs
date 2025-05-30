@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Eko Prasetyo_fas fa-file-pdf_1</name>
+   <tag></tag>
+   <elementGuidId>dc34b434-6bbd-4b50-9b63-ca576727db69</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='dt-basic-example']/tbody/tr/td[3]/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fas.fa-file-pdf</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;&quot;i] >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>a154ac6a-239e-44f6-86a8-e2514b753544</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fas fa-file-pdf</value>
+      <webElementGuid>717238d4-f341-40d9-bb09-b38c03f444d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dt-basic-example&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[3]/a[1]/i[@class=&quot;fas fa-file-pdf&quot;]</value>
+      <webElementGuid>ac5171b3-bad7-455a-9c8b-36b9712d6dd9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='dt-basic-example']/tbody/tr/td[3]/a/i</value>
+      <webElementGuid>7cf626c9-ad01-4886-b4e6-5cb1ed492ef3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]/a/i</value>
+      <webElementGuid>cf67f032-66e4-4228-9966-116b93be12ae</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

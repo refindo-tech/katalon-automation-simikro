@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validates a student's submission as an institution administrator.</description>
+   <name>TC_ValidatingSubmission</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6f412377-8b2b-4086-9299-addf1f80587e</testCaseGuid>
+</TestCaseEntity>

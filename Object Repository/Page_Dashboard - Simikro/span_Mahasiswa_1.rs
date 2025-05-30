@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Mahasiswa_1</name>
+   <tag></tag>
+   <elementGuidId>0487e057-4097-416a-9c75-28af500c8e62</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='js-primary-nav']/div[2]/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.info-card-text > span.d-inline-block.text-truncate.text-truncate-sm</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#js-primary-nav >> internal:text=&quot;Mahasiswa&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>72d3c836-50bc-4a23-8583-463d5c8a221e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>d-inline-block text-truncate text-truncate-sm</value>
+      <webElementGuid>d7159386-4edc-4d7b-9006-219d55add8a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Mahasiswa</value>
+      <webElementGuid>ae4b0dd6-f318-45a4-a300-a53a3bd87e85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;js-primary-nav&quot;)/div[@class=&quot;info-card&quot;]/div[@class=&quot;info-card-text&quot;]/span[@class=&quot;d-inline-block text-truncate text-truncate-sm&quot;]</value>
+      <webElementGuid>fc4476b6-c497-4aa0-9f4c-7e914725724b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='js-primary-nav']/div[2]/div/span</value>
+      <webElementGuid>e2a33cc6-5d72-4de0-88b9-d2232200ed54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Eko Prasetyo'])[1]/following::span[1]</value>
+      <webElementGuid>24522075-ea43-45cb-b0d6-433959cff3e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/preceding::span[1]</value>
+      <webElementGuid>48d34e0e-29b4-4604-81ad-2e5bfb8652eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unggah Berkas'])[1]/preceding::span[2]</value>
+      <webElementGuid>e3ee9c29-9851-4f39-8c9b-c47f3c376505</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Mahasiswa']/parent::*</value>
+      <webElementGuid>0f43bd85-b2df-40eb-bb1a-3fa5742cee91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span</value>
+      <webElementGuid>543790d1-e08c-49b8-a9d6-f37df5e3bd5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Mahasiswa' or . = 'Mahasiswa')]</value>
+      <webElementGuid>bb65596f-3979-4a62-87c0-d7aa2ad5ffee</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

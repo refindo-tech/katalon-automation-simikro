@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Berkas Laporan_fas fa-file-pdf</name>
+   <tag></tag>
+   <elementGuidId>4e464b55-e249-4126-8fa4-ceb2efe411ba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[2]/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fas.fa-file-pdf</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>p >> internal:has-text=&quot;Berkas Laporan:&quot;i >> internal:role=link</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>e3305921-facf-4be8-b9f8-8ff736196dc5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fas fa-file-pdf</value>
+      <webElementGuid>66d98b81-7e8f-4dcc-ad59-f97701345f61</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;panel-CrC4h&quot;)/div[@class=&quot;panel-container show&quot;]/div[@class=&quot;panel-content&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/p[2]/a[1]/i[@class=&quot;fas fa-file-pdf&quot;]</value>
+      <webElementGuid>67faf74f-33ae-46bc-b3e2-d2167891b4b7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='panel-CrC4h']/div[2]/div/div[2]/div/p[2]/a/i</value>
+      <webElementGuid>f25f1f05-292d-48d4-9c7a-d59cf7b77f87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[2]/a/i</value>
+      <webElementGuid>76da288f-0bb8-421e-99d9-1968ec7171b6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

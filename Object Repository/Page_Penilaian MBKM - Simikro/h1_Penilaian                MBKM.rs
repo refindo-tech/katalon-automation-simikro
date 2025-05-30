@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Penilaian                MBKM</name>
+   <tag></tag>
+   <elementGuidId>3fda8caa-c28d-4dd1-ac2b-189a2e54c5ab</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='js-page-content']/div/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1.subheader-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot; Penilaian MBKM&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>f3d2df38-69f1-42f3-8874-54d320fda522</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>subheader-title</value>
+      <webElementGuid>93748cc7-058a-4244-88fd-efa06711df76</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+            
+                Penilaian
+                MBKM
+                </value>
+      <webElementGuid>57219a2c-9b35-4b65-922b-05878ae0f5f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;js-page-content&quot;)/div[@class=&quot;subheader&quot;]/h1[@class=&quot;subheader-title&quot;]</value>
+      <webElementGuid>ea7be6b2-24b7-4e63-96f1-ac356f6619ab</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='js-page-content']/div/h1</value>
+      <webElementGuid>590580f9-1cd5-4bdc-b4ce-15b8fb432393</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Penilaian MBKM'])[1]/following::h1[1]</value>
+      <webElementGuid>5b77c2d8-d6a3-45db-adae-d43803cda7ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Selamat Datang'])[1]/preceding::h1[1]</value>
+      <webElementGuid>a570f742-b425-40b3-965c-ccdcc2e69f68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>af84ab04-5cf4-4b4b-bdcc-eb596a2dd28d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = '
+            
+                Penilaian
+                MBKM
+                ' or . = '
+            
+                Penilaian
+                MBKM
+                ')]</value>
+      <webElementGuid>ad9e20ba-bc13-4f07-b4bb-f81b21686330</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

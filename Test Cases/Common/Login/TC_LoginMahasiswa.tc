@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Logs in as a student user.</description>
+   <name>TC_LoginMahasiswa</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>57ab65a5-e686-43ec-b4c7-a58d6e2ec229</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>6b280195-12d2-4b2b-b2ec-9d7cd8828612</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/TD_Mahasiswa</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>6b280195-12d2-4b2b-b2ec-9d7cd8828612</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Email</value>
+      <variableId>d257451b-ddba-4aca-bb27-ff9e9b30c748</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>6b280195-12d2-4b2b-b2ec-9d7cd8828612</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>aad16ffe-ab5c-45e1-a643-194c214e1cdc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>6b280195-12d2-4b2b-b2ec-9d7cd8828612</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Role</value>
+      <variableId>269c604e-426e-48c8-9f13-d42f457288c2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('TD_Mahasiswa').getValue('Email', 1)</defaultValue>
+      <description></description>
+      <id>d257451b-ddba-4aca-bb27-ff9e9b30c748</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('TD_Mahasiswa').getValue('Password', 1)</defaultValue>
+      <description></description>
+      <id>aad16ffe-ab5c-45e1-a643-194c214e1cdc</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('TD_Mahasiswa').getValue('Role', 1)</defaultValue>
+      <description></description>
+      <id>269c604e-426e-48c8-9f13-d42f457288c2</id>
+      <masked>false</masked>
+      <name>Role</name>
+   </variable>
+</TestCaseEntity>

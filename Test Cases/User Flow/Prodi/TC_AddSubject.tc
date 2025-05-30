@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Adds a new subject to the study program.</description>
+   <name>TC_AddSubject</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c7e88713-13a0-4496-85fd-165841c076e5</testCaseGuid>
+</TestCaseEntity>

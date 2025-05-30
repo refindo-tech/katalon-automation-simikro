@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Prodi_1</name>
+   <tag></tag>
+   <elementGuidId>caa9767b-f246-4484-984f-27a09a62234d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='js-primary-nav']/div[2]/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.info-card-text > span.d-inline-block.text-truncate.text-truncate-sm</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#js-primary-nav >> internal:text=&quot;Prodi&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e19ed6b5-58e1-447a-bbdc-6a21e781d7f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>d-inline-block text-truncate text-truncate-sm</value>
+      <webElementGuid>ff602f58-69f5-409a-b0fd-b012c0a4e200</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Prodi</value>
+      <webElementGuid>ab593d9c-bf27-4c97-ac4c-90bd55765565</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;js-primary-nav&quot;)/div[@class=&quot;info-card&quot;]/div[@class=&quot;info-card-text&quot;]/span[@class=&quot;d-inline-block text-truncate text-truncate-sm&quot;]</value>
+      <webElementGuid>2b9ca1c7-bfee-464e-b261-5a7850f3567c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='js-primary-nav']/div[2]/div/span</value>
+      <webElementGuid>ab3232ee-cb2f-467c-be2f-7353117d55a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Henny Setiani'])[1]/following::span[1]</value>
+      <webElementGuid>2ae4c388-7649-4db5-a85f-90a47fea17aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/preceding::span[1]</value>
+      <webElementGuid>11ae8bf4-db9d-4e1c-aad7-67a71a7c9659</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unggah Berkas'])[1]/preceding::span[2]</value>
+      <webElementGuid>d61f7dd8-14bc-4547-ae02-14ccd5dfacec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Prodi']/parent::*</value>
+      <webElementGuid>dc576ac2-ef89-41c3-9c06-60b0e92e776a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span</value>
+      <webElementGuid>53cabd0e-64a2-4460-b3c1-783f04eb7d56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Prodi' or . = 'Prodi')]</value>
+      <webElementGuid>788da3b0-83ac-4d58-8de0-a777b4032e67</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

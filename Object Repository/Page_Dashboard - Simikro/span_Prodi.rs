@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Prodi</name>
+   <tag></tag>
+   <elementGuidId>83bc615d-e7fd-41c8-8162-f18d2ba9cb0d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='js-page-content']/div/div[2]/div/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.fw-500.fs-xl.d-block.color-danger-500</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#js-page-content span >> internal:has-text=&quot;Prodi&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>7e66e046-e5af-4921-8bf0-0bcff5f15822</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fw-500 fs-xl d-block color-danger-500</value>
+      <webElementGuid>899dc2fc-a6f1-4054-bcba-6ab548e213d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+            Prodi
+        </value>
+      <webElementGuid>46834b76-195e-4fb2-aa0d-d42f59e8d57b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;js-page-content&quot;)/div[@class=&quot;subheader&quot;]/div[@class=&quot;subheader-block d-lg-flex align-items-center border-faded border-right-0 border-top-0 border-bottom-0 ml-3 pl-3&quot;]/div[@class=&quot;d-inline-flex flex-column justify-content-center mr-3&quot;]/span[@class=&quot;fw-500 fs-xl d-block color-danger-500&quot;]</value>
+      <webElementGuid>6e636633-bbef-46e6-b825-635de71f2bd1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='js-page-content']/div/div[2]/div/span[2]</value>
+      <webElementGuid>2f9dd0e8-62fb-4bc2-ac9e-a98c0da93135</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/following::span[1]</value>
+      <webElementGuid>3236999a-f86a-4b06-a28c-a36fbe72010f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Henny Setiani'])[3]/following::span[2]</value>
+      <webElementGuid>8b47fa4e-4380-436c-a9be-bd5dedb80016</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sudah Dinilai'])[1]/preceding::span[2]</value>
+      <webElementGuid>3e6a8815-fc81-4ca5-b6fe-06c836f93d95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Menunggu Penilaian'])[1]/preceding::span[3]</value>
+      <webElementGuid>2190cbfd-87e2-45bf-84bc-44fca7d252c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/span[2]</value>
+      <webElementGuid>1af699df-d5f4-4684-a123-355750de95d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '
+            Prodi
+        ' or . = '
+            Prodi
+        ')]</value>
+      <webElementGuid>439e8bb7-a246-47df-8cb2-bcf1bd9d816b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

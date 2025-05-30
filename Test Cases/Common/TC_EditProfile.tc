@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Edits user profile information.</description>
+   <name>TC_EditProfile</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0d96aa61-5aa3-4a35-b451-79c99783b084</testCaseGuid>
+</TestCaseEntity>

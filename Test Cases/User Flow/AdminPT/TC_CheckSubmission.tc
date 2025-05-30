@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Reviews submission details as an institution administrator.</description>
+   <name>TC_CheckSubmission</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c336138c-1a66-40d9-8b94-d6a7ff842293</testCaseGuid>
+</TestCaseEntity>

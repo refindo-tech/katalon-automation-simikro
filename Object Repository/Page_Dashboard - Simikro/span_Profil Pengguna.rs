@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Profil Pengguna</name>
+   <tag></tag>
+   <elementGuidId>7ee9acf0-0591-45a6-a3dd-5ba35e2b6f03</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='js-nav-menu']/li[9]/ul/li/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.open > ul > li > a.waves-effect.waves-themed > span.nav-link-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot; Profil Pengguna&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>dc6b3b49-e956-4f84-a77d-d05b6cdbd0c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-link-text</value>
+      <webElementGuid>626212b2-4c44-46c5-94ff-7a2f4e1d41be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-i18n</name>
+      <type>Main</type>
+      <value>nav.profil_admin</value>
+      <webElementGuid>e0bb3ff3-c65d-4ffc-8e35-4519fc08108c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Profil Pengguna</value>
+      <webElementGuid>98e2bfe9-1210-4e09-8474-3596963919c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;js-nav-menu&quot;)/li[@class=&quot;open&quot;]/ul[1]/li[1]/a[@class=&quot;waves-effect waves-themed&quot;]/span[@class=&quot;nav-link-text&quot;]</value>
+      <webElementGuid>cb6aa601-0953-402c-b446-3352761ebfa6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='js-nav-menu']/li[9]/ul/li/a/span</value>
+      <webElementGuid>045592e4-6240-4407-a2b5-587a374ed814</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengaturan'])[2]/following::span[1]</value>
+      <webElementGuid>89964b55-73f2-4912-b21d-941c51c65f6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengaturan'])[1]/following::span[2]</value>
+      <webElementGuid>c876faa7-9982-4db5-baa6-c863db12e180</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tentang Simikro'])[1]/preceding::span[1]</value>
+      <webElementGuid>c147df6d-32b1-484f-a347-27fdc7c676dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Simikro'])[1]/preceding::span[2]</value>
+      <webElementGuid>75b7ee2d-db42-4843-a0eb-8bc1c83a4b12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Profil Pengguna']/parent::*</value>
+      <webElementGuid>cf564827-6feb-4173-a0f6-79b405985d2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[9]/ul/li/a/span</value>
+      <webElementGuid>88d19c5c-c7dd-492e-b8d8-6c2522f8263f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Profil Pengguna' or . = 'Profil Pengguna')]</value>
+      <webElementGuid>fe2d6d5a-e59c-4d54-9efd-fac9ca99c319</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

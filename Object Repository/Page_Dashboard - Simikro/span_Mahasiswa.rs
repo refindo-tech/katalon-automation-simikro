@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Mahasiswa</name>
+   <tag></tag>
+   <elementGuidId>d5b5ec07-33c7-4df1-902d-b32e829a5081</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='js-page-content']/div/div[2]/div/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.fw-500.fs-xl.d-block.color-danger-500</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#js-page-content >> internal:text=&quot;Mahasiswa&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f5f56808-0b46-4c39-ac73-edb870e86588</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fw-500 fs-xl d-block color-danger-500</value>
+      <webElementGuid>b2a43317-0dd7-4aae-9e90-4552545cc8cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+            Mahasiswa
+        </value>
+      <webElementGuid>30d0a665-7ed4-4976-a445-22b18d1b9f1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;js-page-content&quot;)/div[@class=&quot;subheader&quot;]/div[@class=&quot;subheader-block d-lg-flex align-items-center border-faded border-right-0 border-top-0 border-bottom-0 ml-3 pl-3&quot;]/div[@class=&quot;d-inline-flex flex-column justify-content-center mr-3&quot;]/span[@class=&quot;fw-500 fs-xl d-block color-danger-500&quot;]</value>
+      <webElementGuid>a06101c3-a541-43be-9b6e-108f7d41dfc2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='js-page-content']/div/div[2]/div/span[2]</value>
+      <webElementGuid>a571ce37-44c6-48df-9565-a194c453969d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/following::span[1]</value>
+      <webElementGuid>d7b46999-5f38-4f40-b1cd-207a2cd993fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Eko Prasetyo'])[3]/following::span[2]</value>
+      <webElementGuid>1bcce31a-5b85-445d-bc27-d4d7bb50b6d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Belum Mengisi Mikroskill'])[1]/preceding::span[1]</value>
+      <webElementGuid>a1040dc7-d42c-4c80-8dd3-ec8ee23d28da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status Progres Anda'])[1]/preceding::span[2]</value>
+      <webElementGuid>51586b82-ea2a-4b26-9d4c-77ba9b9021a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/span[2]</value>
+      <webElementGuid>5988b8b8-362f-4239-84c7-6d7239bf7798</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '
+            Mahasiswa
+        ' or . = '
+            Mahasiswa
+        ')]</value>
+      <webElementGuid>7aee3bd7-2900-4a91-ae4a-1d0dd7384242</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

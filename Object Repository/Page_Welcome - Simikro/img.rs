@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>c2953952-5ab3-4ec2-8fec-cc46623cd567</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@alt='Simikro WebApp']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img[alt=&quot;Simikro WebApp&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Simikro WebApp&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>ac22b817-b518-49f6-ad49-575759614fa6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/admin/img/logountirta.png</value>
+      <webElementGuid>4f82c9fc-c3da-4aa3-b755-a2f7eff95fc1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Simikro WebApp</value>
+      <webElementGuid>ae7929be-3713-443b-bae1-a814c47bf409</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-roledescription</name>
+      <type>Main</type>
+      <value>logo</value>
+      <webElementGuid>18baae49-f3e1-4ef0-b282-81462437a983</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;pace-done desktop chrome webkit blur&quot;]/div[@class=&quot;page-wrapper auth&quot;]/div[@class=&quot;page-inner bg-brand-gradient&quot;]/div[@class=&quot;page-content-wrapper bg-transparent m-0&quot;]/div[@class=&quot;height-10 w-100 shadow-lg px-4 bg-brand-gradient&quot;]/div[@class=&quot;d-flex align-items-center container p-0&quot;]/div[@class=&quot;page-logo width-mobile-auto m-0 align-items-center justify-content-center p-0 bg-transparent bg-img-none shadow-0 height-9 border-0&quot;]/a[@class=&quot;page-logo-link press-scale-down d-flex align-items-center&quot;]/img[1]</value>
+      <webElementGuid>06efbd83-fc70-40c2-a244-14a22ae88281</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Simikro WebApp']</value>
+      <webElementGuid>f188e2dd-b56e-4bc8-b5f4-369359e5dad6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+      <webElementGuid>7eeeaa29-846f-486e-b770-113cb5290d19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/admin/img/logountirta.png' and @alt = 'Simikro WebApp']</value>
+      <webElementGuid>22af75a4-06fa-48f8-8137-31b151646706</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

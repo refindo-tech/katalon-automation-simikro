@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Removes an existing subject from the study program.</description>
+   <name>TC_DeleteSubject</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f0c9ebe5-1b81-48b3-833d-9462210053f8</testCaseGuid>
+</TestCaseEntity>

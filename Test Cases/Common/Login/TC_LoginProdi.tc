@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Logs in as a study program representative.</description>
+   <name>TC_LoginProdi</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f382f5c2-9641-4919-a2bb-b80af1ac62bd</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>259e67bb-9e87-45f9-a39d-01fd799fab02</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/TD_Prodi</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>259e67bb-9e87-45f9-a39d-01fd799fab02</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Email</value>
+      <variableId>c593cd32-febf-4201-a8d4-cdc4c4af9161</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>259e67bb-9e87-45f9-a39d-01fd799fab02</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>7dd7a44c-b9e1-4254-a763-35ab11efa348</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>259e67bb-9e87-45f9-a39d-01fd799fab02</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Role</value>
+      <variableId>721a3b5a-fd8b-4458-9adf-686a5a5ad212</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('TD_Prodi').getValue('Email', 1)</defaultValue>
+      <description></description>
+      <id>c593cd32-febf-4201-a8d4-cdc4c4af9161</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('TD_Prodi').getValue('Password', 1)</defaultValue>
+      <description></description>
+      <id>7dd7a44c-b9e1-4254-a763-35ab11efa348</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('TD_Prodi').getValue('Role', 1)</defaultValue>
+      <description></description>
+      <id>721a3b5a-fd8b-4458-9adf-686a5a5ad212</id>
+      <masked>false</masked>
+      <name>Role</name>
+   </variable>
+</TestCaseEntity>

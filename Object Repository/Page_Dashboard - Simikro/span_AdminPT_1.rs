@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_AdminPT_1</name>
+   <tag></tag>
+   <elementGuidId>29eb5a4c-e451-4ae6-86ea-0423d6aa379f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.fw-500.fs-xl.d-block.color-danger-500</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='js-page-content']/div/div[2]/div/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#js-page-content >> internal:text=&quot;AdminPT&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ec390fc2-26e8-4350-aedc-709efe562bf7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fw-500 fs-xl d-block color-danger-500</value>
+      <webElementGuid>e3622026-cc4b-49fe-bc43-3702ff79efeb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+            AdminPT
+        </value>
+      <webElementGuid>ec5151ac-5ed8-4ce3-bf30-cf0c12f6ec3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;js-page-content&quot;)/div[@class=&quot;subheader&quot;]/div[@class=&quot;subheader-block d-lg-flex align-items-center border-faded border-right-0 border-top-0 border-bottom-0 ml-3 pl-3&quot;]/div[@class=&quot;d-inline-flex flex-column justify-content-center mr-3&quot;]/span[@class=&quot;fw-500 fs-xl d-block color-danger-500&quot;]</value>
+      <webElementGuid>8f3bdee5-e332-4b9e-b2f5-096c3939df1b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='js-page-content']/div/div[2]/div/span[2]</value>
+      <webElementGuid>3941fa87-801b-493c-afc0-bd99f0396bc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/following::span[1]</value>
+      <webElementGuid>55da9ff6-ec37-4194-ac4e-d43271466b98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Admin Universitas Bina Bangsa'])[3]/following::span[2]</value>
+      <webElementGuid>0cc4c899-3b6b-48a6-8978-593dda65f87b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tervalidasi'])[1]/preceding::span[2]</value>
+      <webElementGuid>27e96fe6-d281-477d-9a37-f9510ab03680</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Menunggu Validasi'])[1]/preceding::span[3]</value>
+      <webElementGuid>d2150cf8-b95a-4538-8641-1f58748eeac2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/span[2]</value>
+      <webElementGuid>3a5fcc28-c3ff-471a-a33e-bd2899fc0e79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '
+            AdminPT
+        ' or . = '
+            AdminPT
+        ')]</value>
+      <webElementGuid>8348ceb9-f218-446a-b93d-38dce5d71807</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

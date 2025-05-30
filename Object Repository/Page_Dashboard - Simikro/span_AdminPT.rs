@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_AdminPT</name>
+   <tag></tag>
+   <elementGuidId>be757088-d6bb-4800-ae22-86c62bd76418</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='js-primary-nav']/div[2]/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.info-card-text > span.d-inline-block.text-truncate.text-truncate-sm</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#js-primary-nav >> internal:text=&quot;AdminPT&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>63400b75-b786-47f0-b2c8-93dcf05af153</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>d-inline-block text-truncate text-truncate-sm</value>
+      <webElementGuid>73b300fa-45a3-494b-b16b-066a09e845fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AdminPT</value>
+      <webElementGuid>80a8dcf5-50dd-434a-9ce7-6c0a8c8e9bd5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;js-primary-nav&quot;)/div[@class=&quot;info-card&quot;]/div[@class=&quot;info-card-text&quot;]/span[@class=&quot;d-inline-block text-truncate text-truncate-sm&quot;]</value>
+      <webElementGuid>62a7c9ce-a0d1-4c4d-a38f-99cffff74fcd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='js-primary-nav']/div[2]/div/span</value>
+      <webElementGuid>363c9321-49dc-4640-8558-36c4b3fbdffc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Admin Universitas Bina Bangsa'])[1]/following::span[1]</value>
+      <webElementGuid>45f9c4de-d502-4706-8c05-0bcc792c9325</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/preceding::span[1]</value>
+      <webElementGuid>773ac043-1c73-46b3-8ebb-2fd84a4846f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unggah Berkas'])[1]/preceding::span[2]</value>
+      <webElementGuid>241b1be6-06ee-48b1-ba13-8d2e9e8b4650</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='AdminPT']/parent::*</value>
+      <webElementGuid>574bf8f7-089b-4da9-8981-155489a34b0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span</value>
+      <webElementGuid>76a15516-6319-4709-ad1a-2d9d8063b46a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'AdminPT' or . = 'AdminPT')]</value>
+      <webElementGuid>ba4133d6-e18e-4c60-a395-f74c8cda58f1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
