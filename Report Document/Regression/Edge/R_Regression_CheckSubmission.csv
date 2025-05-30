@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Regression_CheckSubmission,Edge Chromium 136.0.3240.92,,,29-05-2025 01:16:45,29-05-2025 01:19:07,2m - 22.507s,PASSED
+,,,,,,,
+Test Cases/Common/Login/TC_LoginAdminPT,Edge Chromium 136.0.3240.92,Logs in as an institution administrator.,,29-05-2025 01:16:47,29-05-2025 01:17:58,1m - 11.518s,PASSED
+"DATA BINDING - {""(Default) Role"":""AdminPT"",""(Default) Email"":""admin1@example.com"",""(Default) Passw..."":""8SQVv/p9jVScEs4/2CZsLw\u003d\u003d""}",,,,,,,
+"openBrowser("""")",Edge Chromium 136.0.3240.92,,,29-05-2025 01:16:49,29-05-2025 01:16:57,8.199s,PASSED
+navigateToUrl(WelcomePage_TestEnv),Edge Chromium 136.0.3240.92,,,29-05-2025 01:16:57,29-05-2025 01:17:09,11.800s,PASSED
+maximizeWindow(),Edge Chromium 136.0.3240.92,,,29-05-2025 01:17:09,29-05-2025 01:17:10,0.643s,PASSED
+pageVerification.GoToWelcome.verifyWelcomePageIsDisplayed(),Edge Chromium 136.0.3240.92,,,29-05-2025 01:17:10,29-05-2025 01:17:12,1.857s,PASSED
+takeFullPageScreenshot(STOP_ON_FAILURE),Edge Chromium 136.0.3240.92,,,29-05-2025 01:17:12,29-05-2025 01:17:14,2.367s,PASSED
+"click(findTestObject(""Object Repository/Page_Welcome - Simikro/a_Login""))",Edge Chromium 136.0.3240.92,,,29-05-2025 01:17:14,29-05-2025 01:17:21,7.033s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login - Simikro/input_Email_email""), Email)",Edge Chromium 136.0.3240.92,,,29-05-2025 01:17:21,29-05-2025 01:17:25,4.172s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login - Simikro/input_Password_password""), Password)",Edge Chromium 136.0.3240.92,,,29-05-2025 01:17:25,29-05-2025 01:17:27,1.523s,PASSED
+"click(findTestObject(""Object Repository/Page_Login - Simikro/button_Masuk""))",Edge Chromium 136.0.3240.92,,,29-05-2025 01:17:27,29-05-2025 01:17:56,29.199s,PASSED
+pageVerification.GoToDashboard.verifyRoleIsDisplayed(Role),Edge Chromium 136.0.3240.92,,,29-05-2025 01:17:56,29-05-2025 01:17:56,0.484s,PASSED
+takeFullPageScreenshot(STOP_ON_FAILURE),Edge Chromium 136.0.3240.92,,,29-05-2025 01:17:56,29-05-2025 01:17:58,1.710s,PASSED
+,,,,,,,
+Test Cases/User Flow/AdminPT/TC_CheckSubmission,Edge Chromium 136.0.3240.92,Reviews submission details as an institution administrator.,,29-05-2025 01:17:58,29-05-2025 01:18:54,55.923s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/span_Pengajuan Konversi""))",Edge Chromium 136.0.3240.92,,,29-05-2025 01:17:59,29-05-2025 01:18:09,10.104s,PASSED
+"click(findTestObject(""Page_Report - Simikro/td_Teknik Informatika""))",Edge Chromium 136.0.3240.92,,,29-05-2025 01:18:09,29-05-2025 01:18:17,8.239s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/td_Eko Prasetyo""))",Edge Chromium 136.0.3240.92,,,29-05-2025 01:18:17,29-05-2025 01:18:27,9.990s,PASSED
+takeFullPageScreenshot(),Edge Chromium 136.0.3240.92,,,29-05-2025 01:18:27,29-05-2025 01:18:29,2.079s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/a_Rincian""))",Edge Chromium 136.0.3240.92,,,29-05-2025 01:18:29,29-05-2025 01:18:37,8.291s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Report - Simikro/h2_Rincian        Laporan Akhir""))",Edge Chromium 136.0.3240.92,,,29-05-2025 01:18:37,29-05-2025 01:18:38,0.527s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Report - Simikro/i_Berkas Laporan_fas fa-file-pdf""), 0)",Edge Chromium 136.0.3240.92,,,29-05-2025 01:18:38,29-05-2025 01:18:38,0.385s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Report - Simikro/i_Berkas Laporan_fas fa-file-pdf""), STOP_ON_FAILURE)",Edge Chromium 136.0.3240.92,,,29-05-2025 01:18:38,29-05-2025 01:18:39,0.416s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Report - Simikro/i_Berkas Sertifikat_fas fa-file-pdf""), 0)",Edge Chromium 136.0.3240.92,,,29-05-2025 01:18:39,29-05-2025 01:18:39,0.327s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Report - Simikro/i_Berkas Sertifikat_fas fa-file-pdf""), STOP_ON_FAILURE)",Edge Chromium 136.0.3240.92,,,29-05-2025 01:18:39,29-05-2025 01:18:40,0.670s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Report - Simikro/i_Berkas Dokumentasi_fas fa-file-pdf""), 0)",Edge Chromium 136.0.3240.92,,,29-05-2025 01:18:40,29-05-2025 01:18:40,0.666s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Report - Simikro/i_Berkas Dokumentasi_fas fa-file-pdf""), STOP_ON_FAILURE)",Edge Chromium 136.0.3240.92,,,29-05-2025 01:18:40,29-05-2025 01:18:41,0.374s,PASSED
+"scrollToElement(findTestObject(""Page_Report - Simikro/a_Back""), 0)",Edge Chromium 136.0.3240.92,,,29-05-2025 01:18:41,29-05-2025 01:18:41,0.320s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/a_Back""))",Edge Chromium 136.0.3240.92,,,29-05-2025 01:18:41,29-05-2025 01:18:49,7.932s,PASSED
+navigateToUrl(DashboardPage_TestEnv),Edge Chromium 136.0.3240.92,,,29-05-2025 01:18:49,29-05-2025 01:18:54,5.202s,PASSED
+,,,,,,,
+Test Cases/Common/TC_Logout,Edge Chromium 136.0.3240.92,Logs out the current user session.,,29-05-2025 01:18:54,29-05-2025 01:19:07,12.954s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/img_Simikro_profile-image rounded-circle""))",Edge Chromium 136.0.3240.92,,,29-05-2025 01:18:55,29-05-2025 01:18:56,1.047s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/button_Keluar""))",Edge Chromium 136.0.3240.92,,,29-05-2025 01:18:56,29-05-2025 01:18:56,0.486s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/button_Ya""))",Edge Chromium 136.0.3240.92,,,29-05-2025 01:18:56,29-05-2025 01:18:57,0.762s,PASSED
+pageVerification.GoToWelcome.verifyWelcomePageIsDisplayed(),Edge Chromium 136.0.3240.92,,,29-05-2025 01:18:57,29-05-2025 01:19:04,7.275s,PASSED
+takeFullPageScreenshot(STOP_ON_FAILURE),Edge Chromium 136.0.3240.92,,,29-05-2025 01:19:04,29-05-2025 01:19:05,1.179s,PASSED
+closeBrowser(),Edge Chromium 136.0.3240.92,,,29-05-2025 01:19:05,29-05-2025 01:19:07,1.709s,PASSED

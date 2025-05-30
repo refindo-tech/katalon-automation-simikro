@@ -1,0 +1,200 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_EndToEnd,Chrome 136.0.7103.114,,,20-05-2025 03:16:37,20-05-2025 03:24:03,7m - 26.185s,PASSED
+,,,,,,,
+Test Cases/Common/Login/TC_LoginMahasiswa,Chrome 136.0.7103.114,Logs in as a student user.,,20-05-2025 03:16:39,20-05-2025 03:17:17,38.126s,PASSED
+"DATA BINDING - {""(Default) Role"":""Mahasiswa"",""(Default) Email"":""mahasiswa@example.com"",""(Default) Passw..."":""8SQVv/p9jVScEs4/2CZsLw\u003d\u003d""}",,,,,,,
+"openBrowser("""")",Chrome 136.0.7103.114,,,20-05-2025 03:16:41,20-05-2025 03:16:48,6.871s,PASSED
+navigateToUrl(URL_Test_Env),Chrome 136.0.7103.114,,,20-05-2025 03:16:48,20-05-2025 03:16:50,1.257s,PASSED
+maximizeWindow(),Chrome 136.0.7103.114,,,20-05-2025 03:16:50,20-05-2025 03:16:50,0.736s,PASSED
+pageVerification.GoToWelcome.verifyWelcomePageIsDisplayed(),Chrome 136.0.7103.114,,,20-05-2025 03:16:50,20-05-2025 03:16:52,1.904s,PASSED
+takeFullPageScreenshot(STOP_ON_FAILURE),Chrome 136.0.7103.114,,,20-05-2025 03:16:52,20-05-2025 03:16:56,3.542s,PASSED
+"click(findTestObject(""Object Repository/Page_Welcome - Simikro/a_Login""))",Chrome 136.0.7103.114,,,20-05-2025 03:16:56,20-05-2025 03:17:01,5.023s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login - Simikro/input_Email_email""), Email)",Chrome 136.0.7103.114,,,20-05-2025 03:17:01,20-05-2025 03:17:03,2.289s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login - Simikro/input_Password_password""), Password)",Chrome 136.0.7103.114,,,20-05-2025 03:17:03,20-05-2025 03:17:04,0.840s,PASSED
+"click(findTestObject(""Object Repository/Page_Login - Simikro/button_Masuk""))",Chrome 136.0.7103.114,,,20-05-2025 03:17:04,20-05-2025 03:17:14,9.662s,PASSED
+pageVerification.GoToDashboard.verifyRoleIsDisplayed(Role),Chrome 136.0.7103.114,,,20-05-2025 03:17:14,20-05-2025 03:17:15,1.684s,PASSED
+takeFullPageScreenshot(STOP_ON_FAILURE),Chrome 136.0.7103.114,,,20-05-2025 03:17:15,20-05-2025 03:17:17,1.872s,PASSED
+,,,,,,,
+Test Cases/Common/TC_EditProfile,Chrome 136.0.7103.114,Edits user profile information.,,20-05-2025 03:17:17,20-05-2025 03:17:40,22.330s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Report - Simikro/span_Pengaturan""), 0)",Chrome 136.0.7103.114,,,20-05-2025 03:17:18,20-05-2025 03:17:19,0.737s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/span_Pengaturan""))",Chrome 136.0.7103.114,,,20-05-2025 03:17:19,20-05-2025 03:17:20,0.910s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Report - Simikro/span_Profil Pengguna""), 0)",Chrome 136.0.7103.114,,,20-05-2025 03:17:20,20-05-2025 03:17:21,0.916s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/span_Profil Pengguna""))",Chrome 136.0.7103.114,,,20-05-2025 03:17:21,20-05-2025 03:17:29,8.394s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Profil Master - Simikro/a_Edit Profil""), 0)",Chrome 136.0.7103.114,,,20-05-2025 03:17:29,20-05-2025 03:17:30,0.832s,PASSED
+"click(findTestObject(""Object Repository/Page_Profil Master - Simikro/a_Edit Profil""))",Chrome 136.0.7103.114,,,20-05-2025 03:17:30,20-05-2025 03:17:33,2.922s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Profil Master - Simikro/button_Simpan Perubahan""), 0)",Chrome 136.0.7103.114,,,20-05-2025 03:17:33,20-05-2025 03:17:34,0.784s,PASSED
+"click(findTestObject(""Object Repository/Page_Profil Master - Simikro/button_Simpan Perubahan""))",Chrome 136.0.7103.114,,,20-05-2025 03:17:34,20-05-2025 03:17:40,5.876s,PASSED
+,,,,,,,
+Test Cases/User Flow/Mahasiswa/TC_AddSubmission,Chrome 136.0.7103.114,Creates a new submission as a student.,GenAI,20-05-2025 03:17:40,20-05-2025 03:18:27,46.858s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/span_Pengajuan Konversi""))",Chrome 136.0.7103.114,,,20-05-2025 03:17:41,20-05-2025 03:17:48,7.143s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/button_OK""))",Chrome 136.0.7103.114,,,20-05-2025 03:17:48,20-05-2025 03:17:49,1.105s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Report - Simikro/td_Belum Test""), ""Belum Test"")",Chrome 136.0.7103.114,,,20-05-2025 03:17:49,20-05-2025 03:17:50,0.713s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Report - Simikro/span_Silahkan tes terlebih dahulu""), ""Silahkan tes terlebih dahulu"")",Chrome 136.0.7103.114,,,20-05-2025 03:17:50,20-05-2025 03:17:50,0.348s,PASSED
+takeFullPageScreenshot(),Chrome 136.0.7103.114,,,20-05-2025 03:17:50,20-05-2025 03:17:51,0.959s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/a_Tes Mikroskill""))",Chrome 136.0.7103.114,,,20-05-2025 03:17:51,20-05-2025 03:17:59,8.105s,PASSED
+utils.takeMikroskillTest.answarAllQuestions(),Chrome 136.0.7103.114,,,20-05-2025 03:17:59,20-05-2025 03:18:20,20.874s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/button_Submit Tes""))",Chrome 136.0.7103.114,,,20-05-2025 03:18:20,20-05-2025 03:18:24,3.311s,PASSED
+takeFullPageScreenshot(),Chrome 136.0.7103.114,,,20-05-2025 03:18:24,20-05-2025 03:18:25,0.869s,PASSED
+"verifyElementText(findTestObject(""Page_Report - Simikro/span_MENUNGGU VALIDASI""), ""MENUNGGU VALIDASI"")",Chrome 136.0.7103.114,,,20-05-2025 03:18:25,20-05-2025 03:18:25,0.303s,PASSED
+"navigateToUrl(""http://127.0.0.1:8000/dashboard"")",Chrome 136.0.7103.114,,,20-05-2025 03:18:25,20-05-2025 03:18:27,1.781s,PASSED
+,,,,,,,
+Test Cases/Common/TC_Logout,Chrome 136.0.7103.114,Logs out the current user session.,,20-05-2025 03:18:27,20-05-2025 03:18:37,10.728s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/img_Simikro_profile-image rounded-circle""))",Chrome 136.0.7103.114,,,20-05-2025 03:18:27,20-05-2025 03:18:27,0.451s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/button_Keluar""))",Chrome 136.0.7103.114,,,20-05-2025 03:18:27,20-05-2025 03:18:28,0.478s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/button_Ya""))",Chrome 136.0.7103.114,,,20-05-2025 03:18:28,20-05-2025 03:18:33,4.554s,PASSED
+pageVerification.GoToWelcome.verifyWelcomePageIsDisplayed(),Chrome 136.0.7103.114,,,20-05-2025 03:18:33,20-05-2025 03:18:34,1.655s,PASSED
+takeFullPageScreenshot(STOP_ON_FAILURE),Chrome 136.0.7103.114,,,20-05-2025 03:18:34,20-05-2025 03:18:36,1.377s,PASSED
+closeBrowser(),Chrome 136.0.7103.114,,,20-05-2025 03:18:36,20-05-2025 03:18:37,1.762s,PASSED
+,,,,,,,
+Test Cases/Common/Login/TC_LoginAdminPT,Chrome 136.0.7103.114,Logs in as an institution administrator.,,20-05-2025 03:18:37,20-05-2025 03:19:04,26.985s,PASSED
+"DATA BINDING - {""(Default) Role"":""AdminPT"",""(Default) Email"":""admin1@example.com"",""(Default) Passw..."":""8SQVv/p9jVScEs4/2CZsLw\u003d\u003d""}",,,,,,,
+"openBrowser("""")",Chrome 136.0.7103.114,,,20-05-2025 03:18:38,20-05-2025 03:18:41,3.871s,PASSED
+navigateToUrl(URL_Test_Env),Chrome 136.0.7103.114,,,20-05-2025 03:18:41,20-05-2025 03:18:46,4.963s,PASSED
+maximizeWindow(),Chrome 136.0.7103.114,,,20-05-2025 03:18:46,20-05-2025 03:18:47,0.485s,PASSED
+pageVerification.GoToWelcome.verifyWelcomePageIsDisplayed(),Chrome 136.0.7103.114,,,20-05-2025 03:18:47,20-05-2025 03:18:48,1.466s,PASSED
+takeFullPageScreenshot(STOP_ON_FAILURE),Chrome 136.0.7103.114,,,20-05-2025 03:18:48,20-05-2025 03:18:49,1.019s,PASSED
+"click(findTestObject(""Object Repository/Page_Welcome - Simikro/a_Login""))",Chrome 136.0.7103.114,,,20-05-2025 03:18:49,20-05-2025 03:18:52,2.231s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login - Simikro/input_Email_email""), Email)",Chrome 136.0.7103.114,,,20-05-2025 03:18:52,20-05-2025 03:18:53,0.982s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login - Simikro/input_Password_password""), Password)",Chrome 136.0.7103.114,,,20-05-2025 03:18:53,20-05-2025 03:18:53,0.656s,PASSED
+"click(findTestObject(""Object Repository/Page_Login - Simikro/button_Masuk""))",Chrome 136.0.7103.114,,,20-05-2025 03:18:53,20-05-2025 03:19:01,7.745s,PASSED
+pageVerification.GoToDashboard.verifyRoleIsDisplayed(Role),Chrome 136.0.7103.114,,,20-05-2025 03:19:01,20-05-2025 03:19:02,1.349s,PASSED
+takeFullPageScreenshot(STOP_ON_FAILURE),Chrome 136.0.7103.114,,,20-05-2025 03:19:02,20-05-2025 03:19:04,1.996s,PASSED
+,,,,,,,
+Test Cases/Common/TC_EditProfile,Chrome 136.0.7103.114,Edits user profile information.,,20-05-2025 03:19:04,20-05-2025 03:19:50,45.370s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Report - Simikro/span_Pengaturan""), 0)",Chrome 136.0.7103.114,,,20-05-2025 03:19:05,20-05-2025 03:19:05,0.431s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/span_Pengaturan""))",Chrome 136.0.7103.114,,,20-05-2025 03:19:05,20-05-2025 03:19:06,0.607s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Report - Simikro/span_Profil Pengguna""), 0)",Chrome 136.0.7103.114,,,20-05-2025 03:19:06,20-05-2025 03:19:07,1.119s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/span_Profil Pengguna""))",Chrome 136.0.7103.114,,,20-05-2025 03:19:07,20-05-2025 03:19:12,5.329s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Profil Master - Simikro/a_Edit Profil""), 0)",Chrome 136.0.7103.114,,,20-05-2025 03:19:12,20-05-2025 03:19:39,27.109s,PASSED
+"click(findTestObject(""Object Repository/Page_Profil Master - Simikro/a_Edit Profil""))",Chrome 136.0.7103.114,,,20-05-2025 03:19:39,20-05-2025 03:19:42,2.818s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Profil Master - Simikro/button_Simpan Perubahan""), 0)",Chrome 136.0.7103.114,,,20-05-2025 03:19:42,20-05-2025 03:19:43,0.456s,PASSED
+"click(findTestObject(""Object Repository/Page_Profil Master - Simikro/button_Simpan Perubahan""))",Chrome 136.0.7103.114,,,20-05-2025 03:19:43,20-05-2025 03:19:50,7.083s,PASSED
+,,,,,,,
+Test Cases/User Flow/AdminPT/TC_ValidatingSubmission,Chrome 136.0.7103.114,Validates a student's submission as an institution administrator.,,20-05-2025 03:19:50,20-05-2025 03:20:34,44.543s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/span_Pengajuan Konversi""))",Chrome 136.0.7103.114,,,20-05-2025 03:19:51,20-05-2025 03:19:58,7.212s,PASSED
+"click(findTestObject(""Page_Report - Simikro/td_Teknik Informatika""))",Chrome 136.0.7103.114,,,20-05-2025 03:19:58,20-05-2025 03:20:06,8.259s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/td_Eko Prasetyo""))",Chrome 136.0.7103.114,,,20-05-2025 03:20:06,20-05-2025 03:20:14,7.722s,PASSED
+takeFullPageScreenshot(),Chrome 136.0.7103.114,,,20-05-2025 03:20:14,20-05-2025 03:20:16,1.409s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/a_Validasi Berkas""))",Chrome 136.0.7103.114,,,20-05-2025 03:20:16,20-05-2025 03:20:20,4.835s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_report - Simikro/input_VALID_laprak""), 0)",Chrome 136.0.7103.114,,,20-05-2025 03:20:20,20-05-2025 03:20:21,0.385s,PASSED
+"click(findTestObject(""Object Repository/Page_report - Simikro/input_VALID_laprak""))",Chrome 136.0.7103.114,,,20-05-2025 03:20:21,20-05-2025 03:20:21,0.468s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_report - Simikro/input_VALID_sertifikat""), 0)",Chrome 136.0.7103.114,,,20-05-2025 03:20:21,20-05-2025 03:20:22,0.313s,PASSED
+"click(findTestObject(""Object Repository/Page_report - Simikro/input_VALID_sertifikat""))",Chrome 136.0.7103.114,,,20-05-2025 03:20:22,20-05-2025 03:20:22,0.493s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_report - Simikro/input_VALID_dokumentasi""), 0)",Chrome 136.0.7103.114,,,20-05-2025 03:20:22,20-05-2025 03:20:22,0.433s,PASSED
+"click(findTestObject(""Object Repository/Page_report - Simikro/input_VALID_dokumentasi""))",Chrome 136.0.7103.114,,,20-05-2025 03:20:22,20-05-2025 03:20:23,0.501s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_report - Simikro/input_NILAI REKOMENDASI PROGRAM_nilai_sertifikat""), 0)",Chrome 136.0.7103.114,,,20-05-2025 03:20:23,20-05-2025 03:20:23,0.369s,PASSED
+"setText(findTestObject(""Object Repository/Page_report - Simikro/input_NILAI REKOMENDASI PROGRAM_nilai_sertifikat""), ""90"")",Chrome 136.0.7103.114,,,20-05-2025 03:20:23,20-05-2025 03:20:24,0.730s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_report - Simikro/input_VALID_tes_mikroskill""), 0)",Chrome 136.0.7103.114,,,20-05-2025 03:20:24,20-05-2025 03:20:25,0.835s,PASSED
+"click(findTestObject(""Object Repository/Page_report - Simikro/input_VALID_tes_mikroskill""))",Chrome 136.0.7103.114,,,20-05-2025 03:20:25,20-05-2025 03:20:26,0.849s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_report - Simikro/input_TIDAK                                _1c4649""), 0)",Chrome 136.0.7103.114,,,20-05-2025 03:20:26,20-05-2025 03:20:26,0.390s,PASSED
+"setText(findTestObject(""Object Repository/Page_report - Simikro/input_TIDAK                                _1c4649""), ""90"")",Chrome 136.0.7103.114,,,20-05-2025 03:20:26,20-05-2025 03:20:27,0.664s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_report - Simikro/input_MAKSIMAL SKS_maks_sks""), 0)",Chrome 136.0.7103.114,,,20-05-2025 03:20:27,20-05-2025 03:20:27,0.327s,PASSED
+"setText(findTestObject(""Object Repository/Page_report - Simikro/input_MAKSIMAL SKS_maks_sks""), ""20"")",Chrome 136.0.7103.114,,,20-05-2025 03:20:27,20-05-2025 03:20:28,0.716s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_report - Simikro/textarea_KOMENTAR_feedback""), 0)",Chrome 136.0.7103.114,,,20-05-2025 03:20:28,20-05-2025 03:20:28,0.432s,PASSED
+"setText(findTestObject(""Object Repository/Page_report - Simikro/textarea_KOMENTAR_feedback""), ""Okay"")",Chrome 136.0.7103.114,,,20-05-2025 03:20:28,20-05-2025 03:20:29,0.720s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_report - Simikro/button_Save""), 0)",Chrome 136.0.7103.114,,,20-05-2025 03:20:29,20-05-2025 03:20:29,0.297s,PASSED
+"click(findTestObject(""Object Repository/Page_report - Simikro/button_Save""))",Chrome 136.0.7103.114,,,20-05-2025 03:20:29,20-05-2025 03:20:32,3.012s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Report - Simikro/span_MENUNGGU PENILAIAN""), ""MENUNGGU PENILAIAN"")",Chrome 136.0.7103.114,,,20-05-2025 03:20:32,20-05-2025 03:20:33,0.535s,PASSED
+takeFullPageScreenshot(),Chrome 136.0.7103.114,,,20-05-2025 03:20:33,20-05-2025 03:20:34,1.410s,PASSED
+,,,,,,,
+Test Cases/User Flow/AdminPT/TC_CheckSubmission,Chrome 136.0.7103.114,Reviews submission details as an institution administrator.,,20-05-2025 03:20:34,20-05-2025 03:21:14,39.980s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/span_Pengajuan Konversi""))",Chrome 136.0.7103.114,,,20-05-2025 03:20:35,20-05-2025 03:20:39,3.940s,PASSED
+"click(findTestObject(""Page_Report - Simikro/td_Teknik Informatika""))",Chrome 136.0.7103.114,,,20-05-2025 03:20:39,20-05-2025 03:20:46,7.821s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/td_Eko Prasetyo""))",Chrome 136.0.7103.114,,,20-05-2025 03:20:46,20-05-2025 03:20:53,7.153s,PASSED
+takeFullPageScreenshot(),Chrome 136.0.7103.114,,,20-05-2025 03:20:53,20-05-2025 03:20:55,1.398s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/a_Rincian""))",Chrome 136.0.7103.114,,,20-05-2025 03:20:55,20-05-2025 03:21:00,4.853s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Report - Simikro/h2_Rincian        Laporan Akhir""))",Chrome 136.0.7103.114,,,20-05-2025 03:21:00,20-05-2025 03:21:00,0.532s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Report - Simikro/i_Berkas Laporan_fas fa-file-pdf""), 0)",Chrome 136.0.7103.114,,,20-05-2025 03:21:00,20-05-2025 03:21:01,0.410s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Report - Simikro/i_Berkas Laporan_fas fa-file-pdf""), STOP_ON_FAILURE)",Chrome 136.0.7103.114,,,20-05-2025 03:21:01,20-05-2025 03:21:01,0.429s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Report - Simikro/i_Berkas Sertifikat_fas fa-file-pdf""), 0)",Chrome 136.0.7103.114,,,20-05-2025 03:21:01,20-05-2025 03:21:01,0.341s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Report - Simikro/i_Berkas Sertifikat_fas fa-file-pdf""), STOP_ON_FAILURE)",Chrome 136.0.7103.114,,,20-05-2025 03:21:01,20-05-2025 03:21:02,0.400s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Report - Simikro/i_Berkas Dokumentasi_fas fa-file-pdf""), 0)",Chrome 136.0.7103.114,,,20-05-2025 03:21:02,20-05-2025 03:21:02,0.289s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Report - Simikro/i_Berkas Dokumentasi_fas fa-file-pdf""), STOP_ON_FAILURE)",Chrome 136.0.7103.114,,,20-05-2025 03:21:02,20-05-2025 03:21:02,0.316s,PASSED
+"scrollToElement(findTestObject(""Page_Report - Simikro/a_Back""), 0)",Chrome 136.0.7103.114,,,20-05-2025 03:21:02,20-05-2025 03:21:03,0.328s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/a_Back""))",Chrome 136.0.7103.114,,,20-05-2025 03:21:03,20-05-2025 03:21:07,4.238s,PASSED
+"navigateToUrl(""http://127.0.0.1:8000/dashboard"")",Chrome 136.0.7103.114,,,20-05-2025 03:21:07,20-05-2025 03:21:14,7.187s,PASSED
+,,,,,,,
+Test Cases/Common/TC_Logout,Chrome 136.0.7103.114,Logs out the current user session.,,20-05-2025 03:21:14,20-05-2025 03:21:26,11.517s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/img_Simikro_profile-image rounded-circle""))",Chrome 136.0.7103.114,,,20-05-2025 03:21:14,20-05-2025 03:21:15,0.616s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/button_Keluar""))",Chrome 136.0.7103.114,,,20-05-2025 03:21:15,20-05-2025 03:21:16,0.642s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/button_Ya""))",Chrome 136.0.7103.114,,,20-05-2025 03:21:16,20-05-2025 03:21:22,6.538s,PASSED
+pageVerification.GoToWelcome.verifyWelcomePageIsDisplayed(),Chrome 136.0.7103.114,,,20-05-2025 03:21:22,20-05-2025 03:21:24,1.891s,PASSED
+takeFullPageScreenshot(STOP_ON_FAILURE),Chrome 136.0.7103.114,,,20-05-2025 03:21:24,20-05-2025 03:21:25,1.110s,PASSED
+closeBrowser(),Chrome 136.0.7103.114,,,20-05-2025 03:21:25,20-05-2025 03:21:26,0.557s,PASSED
+,,,,,,,
+Test Cases/Common/Login/TC_LoginProdi,Chrome 136.0.7103.114,Logs in as a study program representative.,,20-05-2025 03:21:26,20-05-2025 03:21:58,32.291s,PASSED
+"DATA BINDING - {""(Default) Role"":""Prodi"",""(Default) Email"":""dosen@example.com"",""(Default) Passw..."":""8SQVv/p9jVScEs4/2CZsLw\u003d\u003d""}",,,,,,,
+"openBrowser("""")",Chrome 136.0.7103.114,,,20-05-2025 03:21:26,20-05-2025 03:21:29,2.796s,PASSED
+navigateToUrl(URL_Test_Env),Chrome 136.0.7103.114,,,20-05-2025 03:21:29,20-05-2025 03:21:32,2.610s,PASSED
+maximizeWindow(),Chrome 136.0.7103.114,,,20-05-2025 03:21:32,20-05-2025 03:21:32,0.326s,PASSED
+pageVerification.GoToWelcome.verifyWelcomePageIsDisplayed(),Chrome 136.0.7103.114,,,20-05-2025 03:21:32,20-05-2025 03:21:34,1.602s,PASSED
+takeFullPageScreenshot(STOP_ON_FAILURE),Chrome 136.0.7103.114,,,20-05-2025 03:21:34,20-05-2025 03:21:35,1.331s,PASSED
+"click(findTestObject(""Object Repository/Page_Welcome - Simikro/a_Login""))",Chrome 136.0.7103.114,,,20-05-2025 03:21:35,20-05-2025 03:21:39,3.805s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login - Simikro/input_Email_email""), Email)",Chrome 136.0.7103.114,,,20-05-2025 03:21:39,20-05-2025 03:21:41,2.065s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login - Simikro/input_Password_password""), Password)",Chrome 136.0.7103.114,,,20-05-2025 03:21:41,20-05-2025 03:21:43,2.095s,PASSED
+"click(findTestObject(""Object Repository/Page_Login - Simikro/button_Masuk""))",Chrome 136.0.7103.114,,,20-05-2025 03:21:43,20-05-2025 03:21:56,12.917s,PASSED
+pageVerification.GoToDashboard.verifyRoleIsDisplayed(Role),Chrome 136.0.7103.114,,,20-05-2025 03:21:56,20-05-2025 03:21:56,0.378s,PASSED
+takeFullPageScreenshot(STOP_ON_FAILURE),Chrome 136.0.7103.114,,,20-05-2025 03:21:56,20-05-2025 03:21:58,1.934s,PASSED
+,,,,,,,
+Test Cases/Common/TC_EditProfile,Chrome 136.0.7103.114,Edits user profile information.,,20-05-2025 03:21:58,20-05-2025 03:22:25,26.818s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Report - Simikro/span_Pengaturan""), 0)",Chrome 136.0.7103.114,,,20-05-2025 03:21:58,20-05-2025 03:21:59,0.402s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/span_Pengaturan""))",Chrome 136.0.7103.114,,,20-05-2025 03:21:59,20-05-2025 03:21:59,0.467s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Report - Simikro/span_Profil Pengguna""), 0)",Chrome 136.0.7103.114,,,20-05-2025 03:21:59,20-05-2025 03:22:00,0.451s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/span_Profil Pengguna""))",Chrome 136.0.7103.114,,,20-05-2025 03:22:00,20-05-2025 03:22:10,10.327s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Profil Master - Simikro/a_Edit Profil""), 0)",Chrome 136.0.7103.114,,,20-05-2025 03:22:10,20-05-2025 03:22:11,0.714s,PASSED
+"click(findTestObject(""Object Repository/Page_Profil Master - Simikro/a_Edit Profil""))",Chrome 136.0.7103.114,,,20-05-2025 03:22:11,20-05-2025 03:22:17,6.137s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Profil Master - Simikro/button_Simpan Perubahan""), 0)",Chrome 136.0.7103.114,,,20-05-2025 03:22:17,20-05-2025 03:22:17,0.718s,PASSED
+"click(findTestObject(""Object Repository/Page_Profil Master - Simikro/button_Simpan Perubahan""))",Chrome 136.0.7103.114,,,20-05-2025 03:22:17,20-05-2025 03:22:25,7.497s,PASSED
+,,,,,,,
+Test Cases/User Flow/Prodi/TC_AddSubject,Chrome 136.0.7103.114,Adds a new subject to the study program.,,20-05-2025 03:22:25,20-05-2025 03:22:47,21.723s,PASSED
+"click(findTestObject(""Object Repository/Page_Penilaian MBKM - Simikro/span_Mata Kuliah""))",Chrome 136.0.7103.114,,,20-05-2025 03:22:26,20-05-2025 03:22:34,7.654s,PASSED
+takeFullPageScreenshot(),Chrome 136.0.7103.114,,,20-05-2025 03:22:34,20-05-2025 03:22:36,1.841s,PASSED
+"click(findTestObject(""Object Repository/Page_Mata Kuliah - Simikro/button_Tambah Mata Kuliah""))",Chrome 136.0.7103.114,,,20-05-2025 03:22:36,20-05-2025 03:22:36,0.436s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mata Kuliah - Simikro/textarea_Aksi_name""), ""New Subject"")",Chrome 136.0.7103.114,,,20-05-2025 03:22:36,20-05-2025 03:22:38,1.768s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mata Kuliah - Simikro/input_Aksi_sks""), ""3"")",Chrome 136.0.7103.114,,,20-05-2025 03:22:38,20-05-2025 03:22:39,0.809s,PASSED
+"click(findTestObject(""Object Repository/Page_Mata Kuliah - Simikro/button_Simpan""))",Chrome 136.0.7103.114,,,20-05-2025 03:22:39,20-05-2025 03:22:45,6.511s,PASSED
+takeFullPageScreenshot(),Chrome 136.0.7103.114,,,20-05-2025 03:22:45,20-05-2025 03:22:47,1.633s,PASSED
+,,,,,,,
+Test Cases/User Flow/Prodi/TC_DeleteSubject,Chrome 136.0.7103.114,Removes an existing subject from the study program.,,20-05-2025 03:22:47,20-05-2025 03:23:03,15.900s,PASSED
+takeFullPageScreenshot(),Chrome 136.0.7103.114,,,20-05-2025 03:22:47,20-05-2025 03:22:49,2.321s,PASSED
+"scrollToElement(findTestObject(""Page_Mata Kuliah - Simikro/i_Teknik Informatika_fa fa-trash""), 0)",Chrome 136.0.7103.114,,,20-05-2025 03:22:49,20-05-2025 03:22:50,0.322s,PASSED
+"click(findTestObject(""Object Repository/Page_Mata Kuliah - Simikro/i_Teknik Informatika_fa fa-trash""))",Chrome 136.0.7103.114,,,20-05-2025 03:22:50,20-05-2025 03:22:50,0.611s,PASSED
+"click(findTestObject(""Object Repository/Page_Mata Kuliah - Simikro/button_Yes""))",Chrome 136.0.7103.114,,,20-05-2025 03:22:50,20-05-2025 03:22:51,0.598s,PASSED
+takeFullPageScreenshot(),Chrome 136.0.7103.114,,,20-05-2025 03:22:51,20-05-2025 03:22:57,6.272s,PASSED
+"navigateToUrl(""http://127.0.0.1:8000/dashboard"")",Chrome 136.0.7103.114,,,20-05-2025 03:22:57,20-05-2025 03:23:03,5.517s,PASSED
+,,,,,,,
+Test Cases/User Flow/Prodi/TC_AssessingSubmission,Chrome 136.0.7103.114,Assesses a student’s submission as a study program representative.,,20-05-2025 03:23:03,20-05-2025 03:23:58,55.024s,PASSED
+"click(findTestObject(""Object Repository/Page_Mata Kuliah - Simikro/span_Pengajuan Konversi""))",Chrome 136.0.7103.114,,,20-05-2025 03:23:04,20-05-2025 03:23:10,6.230s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/td_Eko Prasetyo""))",Chrome 136.0.7103.114,,,20-05-2025 03:23:10,20-05-2025 03:23:18,8.449s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Report - Simikro/span_MENUNGGU PENILAIAN""), ""MENUNGGU PENILAIAN"")",Chrome 136.0.7103.114,,,20-05-2025 03:23:18,20-05-2025 03:23:19,0.869s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Report - Simikro/i_Eko Prasetyo_fas fa-file-pdf_1""))",Chrome 136.0.7103.114,,,20-05-2025 03:23:19,20-05-2025 03:23:19,0.318s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Report - Simikro/i_Eko Prasetyo_fas fa-file-pdf_1_2""))",Chrome 136.0.7103.114,,,20-05-2025 03:23:19,20-05-2025 03:23:20,0.340s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Report - Simikro/i_Eko Prasetyo_fas fa-file-pdf""))",Chrome 136.0.7103.114,,,20-05-2025 03:23:20,20-05-2025 03:23:20,0.298s,PASSED
+takeFullPageScreenshot(),Chrome 136.0.7103.114,,,20-05-2025 03:23:20,20-05-2025 03:23:21,1.195s,PASSED
+"click(findTestObject(""Object Repository/Page_Report - Simikro/a_Mulai Penilaian""))",Chrome 136.0.7103.114,,,20-05-2025 03:23:21,20-05-2025 03:23:25,3.904s,PASSED
+"rightClick(findTestObject(""Object Repository/Page_Penilaian MBKM - Simikro/label_Nilai Rekomendasi Program            _79c0da""))",Chrome 136.0.7103.114,,,20-05-2025 03:23:25,20-05-2025 03:23:26,0.599s,PASSED
+"click(findTestObject(""Object Repository/Page_Penilaian MBKM - Simikro/button_Pilih Mata Kuliah""))",Chrome 136.0.7103.114,,,20-05-2025 03:23:26,20-05-2025 03:23:26,0.384s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Penilaian MBKM - Simikro/select_Pilih Mata Kuliah                   _9d5dd4""), ""1"", true)",Chrome 136.0.7103.114,,,20-05-2025 03:23:26,20-05-2025 03:23:28,1.619s,PASSED
+"setText(findTestObject(""Object Repository/Page_Penilaian MBKM - Simikro/input_Aksi_nilai""), ""90"")",Chrome 136.0.7103.114,,,20-05-2025 03:23:28,20-05-2025 03:23:29,0.844s,PASSED
+"click(findTestObject(""Object Repository/Page_Penilaian MBKM - Simikro/button_Tambah Data""))",Chrome 136.0.7103.114,,,20-05-2025 03:23:29,20-05-2025 03:23:29,0.434s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Penilaian MBKM - Simikro/select_Pilih Mata Kuliah                   _72d249""), ""2"", true)",Chrome 136.0.7103.114,,,20-05-2025 03:23:29,20-05-2025 03:23:31,2.162s,PASSED
+"setText(findTestObject(""Object Repository/Page_Penilaian MBKM - Simikro/input_Aksi_nilai_1""), ""85"")",Chrome 136.0.7103.114,,,20-05-2025 03:23:31,20-05-2025 03:23:32,0.771s,PASSED
+"click(findTestObject(""Object Repository/Page_Penilaian MBKM - Simikro/button_Tambah Data""))",Chrome 136.0.7103.114,,,20-05-2025 03:23:32,20-05-2025 03:23:32,0.421s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Penilaian MBKM - Simikro/select_Pilih Mata Kuliah                   _72d249_1""), ""3"", true)",Chrome 136.0.7103.114,,,20-05-2025 03:23:32,20-05-2025 03:23:34,1.169s,PASSED
+"setText(findTestObject(""Object Repository/Page_Penilaian MBKM - Simikro/input_Aksi_nilai_1_2""), ""80"")",Chrome 136.0.7103.114,,,20-05-2025 03:23:34,20-05-2025 03:23:34,0.747s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Penilaian MBKM - Simikro/button_Simpan""), 0)",Chrome 136.0.7103.114,,,20-05-2025 03:23:34,20-05-2025 03:23:35,0.293s,PASSED
+"click(findTestObject(""Object Repository/Page_Penilaian MBKM - Simikro/button_Simpan""))",Chrome 136.0.7103.114,,,20-05-2025 03:23:35,20-05-2025 03:23:38,3.385s,PASSED
+"click(findTestObject(""Object Repository/Page_Penilaian MBKM - Simikro/a_Terbitkan""))",Chrome 136.0.7103.114,,,20-05-2025 03:23:38,20-05-2025 03:23:45,7.082s,PASSED
+takeFullPageScreenshot(),Chrome 136.0.7103.114,,,20-05-2025 03:23:45,20-05-2025 03:23:47,1.405s,PASSED
+"click(findTestObject(""Object Repository/Page_Penilaian MBKM - Simikro/a_Hasil Penilaian""))",Chrome 136.0.7103.114,,,20-05-2025 03:23:47,20-05-2025 03:23:52,5.000s,PASSED
+delay(3),Chrome 136.0.7103.114,,,20-05-2025 03:23:52,20-05-2025 03:23:55,3.135s,PASSED
+takeFullPageScreenshot(),Chrome 136.0.7103.114,,,20-05-2025 03:23:55,20-05-2025 03:23:55,0.749s,PASSED
+"navigateToUrl(""http://127.0.0.1:8000/dashboard"")",Chrome 136.0.7103.114,,,20-05-2025 03:23:55,20-05-2025 03:23:58,2.347s,PASSED
+,,,,,,,
+Test Cases/Common/TC_Logout,Chrome 136.0.7103.114,Logs out the current user session.,,20-05-2025 03:23:58,20-05-2025 03:24:03,5.357s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/img_Simikro_profile-image rounded-circle""))",Chrome 136.0.7103.114,,,20-05-2025 03:23:58,20-05-2025 03:23:58,0.537s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/button_Keluar""))",Chrome 136.0.7103.114,,,20-05-2025 03:23:58,20-05-2025 03:23:59,0.436s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - Simikro/button_Ya""))",Chrome 136.0.7103.114,,,20-05-2025 03:23:59,20-05-2025 03:24:01,1.975s,PASSED
+pageVerification.GoToWelcome.verifyWelcomePageIsDisplayed(),Chrome 136.0.7103.114,,,20-05-2025 03:24:01,20-05-2025 03:24:02,1.229s,PASSED
+takeFullPageScreenshot(STOP_ON_FAILURE),Chrome 136.0.7103.114,,,20-05-2025 03:24:02,20-05-2025 03:24:03,0.797s,PASSED
+closeBrowser(),Chrome 136.0.7103.114,,,20-05-2025 03:24:03,20-05-2025 03:24:03,0.336s,PASSED
