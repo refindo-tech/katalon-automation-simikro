@@ -7,11 +7,6 @@ Mahasiswa dapat memantau hasil evaluasi secara real-time, memahami standar penil
 ## 🧪 Tujuan Repo
 Melakukan automation testing terhadap sistem Simikro menggunakan Katalon di lingkungan lokal.
 
-## 🛠 Tools
-- Katalon Studio
-- Groovy
-- Git
-
 ## 📁 Struktur Proyek
 - `Test Cases/`: Kumpulan skenario pengujian
 - `Test Suites/`: Gabungan test case dalam batch
@@ -28,8 +23,14 @@ Melakukan automation testing terhadap sistem Simikro menggunakan Katalon di ling
 Laporan pengujian dibagi berdasarkan jenis pengujian:
 
 ### 🔹 Smoke Test
+- **Collection**:
+[HTML](https://refindo-tech.github.io/katalon-automation-simikro/Smoke/Collection/R_Smoke_LoginLogoutAllRole.html)
 - **Chrome**:
-[HTML](https://refindo-tech.github.io/katalon-automation-simikro/Smoke/R_Smoke_LoginLogoutAllRole.html)
+[HTML](https://refindo-tech.github.io/katalon-automation-simikro/Smoke/Chrome/R_Smoke_LoginLogoutAllRole.html)
+- **Firefox**:
+[HTML](https://refindo-tech.github.io/katalon-automation-simikro/Smoke/Firefox/R_Smoke_LoginLogoutAllRole.html)
+- **Edge**:
+[HTML](https://refindo-tech.github.io/katalon-automation-simikro/Smoke/Edge/R_Smoke_LoginLogoutAllRole.html)
 
 ### 🔹 Regression Test
 - **Collection**:
