@@ -11,6 +11,8 @@ Mahasiswa dapat memantau hasil evaluasi secara real-time, memahami standar penil
 - `Test Cases/`: Kumpulan skenario pengujian
 - `Test Suites/`: Gabungan test case dalam batch
 - `Object Repository/`: Elemen UI yang digunakan
+- `Data Files/`: Kumpulan data yang digunakan
+- `Keywords/`: Custom keyword yang dibuat
 - `Report Document/`: Dokumen laporan hasil pengujian
 
 ## 🔁 Siklus QA
